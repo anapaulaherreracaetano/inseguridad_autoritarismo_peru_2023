@@ -55,7 +55,7 @@ data_final <- data %>%
   )) %>%
 
  # Región
-mutate(region_natural = case_when(
+mutate(estratopri = case_when(
   estratopri %in% c(1101, 1102, 1103) ~ "Costa",
   estratopri %in% c(1105, 1106, 1107) ~ "Sierra",
   estratopri == 1104 ~ "Selva",
@@ -63,8 +63,8 @@ mutate(region_natural = case_when(
 )) %>%
 
 
-  # Seleccionar variables finales (ahora incluye región)
-  select(a4n, jc13, jc10, jc15a, ing4, b18, educacion, aoj11, sexin, q10inc, region_natural)
+  # Seleccionar variables finales 
+  select(a4n, jc13, jc10, jc15a, ing4, b18, educacion, aoj11, sexin, q10inc, estratopri)
 
 ```
 
@@ -82,7 +82,7 @@ data_final <- data_final %>%
     inseguridad_barrio = aoj11,
     sexo = sexin,
     ingreso = q10inc,
-    region = region_natural
+    region = estratopri
   )
 
 ```
@@ -154,7 +154,7 @@ diccionario_resumen <- tribble(
   "Control",
 
   "region", 
-  "Región natural del Perú según el estrato muestral (Costa, Sierra, Selva).", 
+  "Región del Perú según el estrato muestral (Costa, Sierra, Selva).", 
   "Categoría (Costa / Sierra / Selva)", 
   "Control"
 )
