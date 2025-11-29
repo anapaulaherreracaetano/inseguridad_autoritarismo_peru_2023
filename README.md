@@ -13,4 +13,4 @@ Análisis de la relación entre la percepción de inseguridad y las actitudes au
 | **Control**       | AOJ11 (inseguridad_barrio)        | Percepción de inseguridad en el barrio (1–4)                 |
 | **Control**       | SEXIN (sexo)                      | 1 = hombre, 0 = mujer                                        |
 | **Control**       | Q10INC (ingreso)                  | Nivel de ingreso familiar mensual                            |
-| **Control** | REGION | Región natural del Perú según estrato muestral LAPOP (Costa, Sierra, Selva) |
+| **Control** | region | Región del Perú según estrato muestral LAPOP (Costa, Sierra, Selva) |
