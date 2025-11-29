@@ -1,184 +1,176 @@
 ---
-title: "Limpieza de data"
-author: "Ana Paula Herrera Caetano"
-date: "2025-11-29"
+title: "Limpieza de Data"
+author: "Tu Nombre"
+date: "2023-10-10"
 output: html_document
 ---
-```{r}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+## 1. Introducción
+En este documento se realiza la limpieza y preparación de la base de datos del **Barómetro de las Américas (LAPOP) 2023 para Perú**. El objetivo es generar una base de datos unificada que permita analizar la relación entre la percepción de inseguridad ciudadana y las actitudes autoritarias.
+
+## 2. Carga de Librerías y Datos
+Primero, cargamos las librerías necesarias para la lectura (`haven`), manipulación (`dplyr`) y exportación (`rio`) de los datos.
+
+```{r carga_datos}
 library(haven)
 library(dplyr)
-library(officer)
-library(flextable)
+library(rio)
 
-```
-CARGANDO LA DATA 
+# Cargar la base de datos original
+data_original <- read_dta("PER_2023_LAPOP_AmericasBarometer_v1.0_w.dta")
 
-```{r}
-data = read_dta("PER_2023_LAPOP_AmericasBarometer_v1.0_w.dta")
-
+# Convertimos todos los nombres de columnas a MAYÚSCULAS para evitar errores
+# names(data_original) <- toupper(names(data_original))
 ```
 
-MODIFICANDO LAS VARIABLES 
 
-```{r}
-library(dplyr)
 
-data_final <- data %>%
-  # Reemplazar valores de "no sabe / no responde / inaplicable" por NA
-  mutate(across(c(a4n, jc13, jc10, jc15a, ing4, b18, edre, aoj11, sexin, q10inc),
-                ~replace(., . %in% c(77, 888888, 988888, 999999), NA))) %>%
+## 3. Selección y Tratamiento de Variables
+Se seleccionan las variables de interés, incluyendo las variables dependientes (actitudes autoritarias), la independiente principal (inseguridad) y los controles sociodemográficos.
 
-  # Dependiente: A4N → 1 si corrupción, 0 si otro
-  mutate(a4n = ifelse(a4n == 6, 1,
-               ifelse(!is.na(a4n), 0, NA))) %>%
+Además, se realiza el tratamiento de las variables con muestra dividida (*split sample*) para unificar las respuestas sobre golpes militares y cierre de instituciones.
 
-  # Independientes dicotómicas
-  mutate(
-    jc13 = ifelse(jc13 == 1, 1, ifelse(jc13 == 2, 0, NA)),
-    jc10 = ifelse(jc10 == 1, 1, ifelse(jc10 == 2, 0, NA)),
-    jc15a = ifelse(jc15a == 1, 1, ifelse(jc15a == 2, 0, NA))
+
+```{r limpieza}
+# 2. Limpieza con los nombres REALES 
+data_clean <- data_original %>%
+  select(
+    # --- Identificadores ---
+    IDNUM = idnum,           # Renombramos idnum a IDNUM
+    PROV = prov,             # Renombramos prov a PROV
+    ESTRATOPRI = estratopri, # Renombramos estratopri
+    
+    # --- Variables de Actitudes (Split Sample) ---
+    JC10 = jc10, JC13 = jc13,     # Golpe militar
+    JC15A = jc15a, JC16A = jc16a, # Cierre instituciones
+    
+    # --- Variables Nucleares del Índice ---
+    CSES6N = cses6n,   # Líder fuerte
+    POP101 = pop101,   # Limitar oposición
+    ING4 = ing4,       # Democracia es mejor
+    
+    # --- Variable Independiente ---
+    A4N = a4n,         # Problema más grave
+    
+    # --- Controles ---
+    VIC1EXT = vic1ext, # Victimización
+    AOJ11 = aoj11,     # Inseguridad Barrio
+    Q1TC = q1tc_r,     # ¡AQUÍ ESTABA EL CAMBIO! Sexo es q1tc_r
+    EDRE = edre,       # Educación
+    Q10INC = q10inc    # Ingresos
   ) %>%
+  mutate(
+    # --- Fusión y Recodificación ---
+    
+    # 1. Fusión de muestras divididas (Golpes y Cierre)
+    golpe_militar_raw = coalesce(as.numeric(JC10), as.numeric(JC13)),
+    cierre_inst_raw   = coalesce(as.numeric(JC15A), as.numeric(JC16A)),
+    
+    # 2. Convertir a Dummies (1=Autoritario, 0=No)
+    apoyo_golpe  = if_else(golpe_militar_raw == 1, 1, 0),
+    apoyo_cierre = if_else(cierre_inst_raw == 1, 1, 0),
+    
+    # 3. Invertir escalas (Para que Mayor Valor = Más Autoritario)
+    lider_fuerte = 6 - as.numeric(CSES6N),       # Original 1-5, invertimos
+    limitar_oposicion = as.numeric(POP101),      # Original 1-7 (Ya está bien)
+    cinismo_democ = 8 - as.numeric(ING4),        # Original 1-7, invertimos
+    
+    # 4. Variable Independiente: Prioridad Seguridad (A4N)
+    # 2 es "Problemas de seguridad". 1=Sí es prioridad, 0=No.
+    prioridad_seguridad = if_else(as.numeric(A4N) == 2, 1, 0, missing = 0),
+    
+    # 5. Controles
+    # En q1tc_r: 1=Hombre, 2=Mujer (según estándar LAPOP)
+    sexo_mujer = if_else(Q1TC == 2, 1, 0),
+    
+    victima_delito = if_else(VIC1EXT == 1, 1, 0),
+    percep_inseguridad = as.numeric(AOJ11),
+    educacion_anos = as.numeric(EDRE),
+    ingresos_rango = as.numeric(Q10INC)
+  ) %>%
+  
+  # --- Selección Final ---
+  select(
+    IDNUM, PROV, ESTRATOPRI,
+    apoyo_golpe, apoyo_cierre, lider_fuerte, limitar_oposicion, cinismo_democ,
+    prioridad_seguridad,
+    victima_delito, percep_inseguridad, sexo_mujer, educacion_anos, ingresos_rango
+  ) %>%
+  na.omit() # Eliminamos vacíos para que funcione el EFA
 
-  # Ordinales
-  mutate(across(c(ing4, b18, aoj11, q10inc, edre), as.numeric)) %>%
-
-  # Sexo
-  mutate(sexin = ifelse(sexin == 1, 1,
-                 ifelse(sexin == 2, 0, NA))) %>%
-
-  # Educación
-  mutate(educacion = case_when(
-    edre %in% 0:2 ~ 1,
-    edre %in% 3:4 ~ 2,
-    edre %in% 5:6 ~ 3,
-    TRUE ~ NA_real_
-  )) %>%
-
- # Región
-mutate(estratopri = case_when(
-  estratopri %in% c(1101, 1102, 1103) ~ "Costa",
-  estratopri %in% c(1105, 1106, 1107) ~ "Sierra",
-  estratopri == 1104 ~ "Selva",
-  TRUE ~ NA_character_
-)) %>%
-
-
-  # Seleccionar variables finales 
-  select(a4n, jc13, jc10, jc15a, ing4, b18, educacion, aoj11, sexin, q10inc, estratopri)
-
+# 3. Exportar
+export(data_clean, "data_autoritarismo_peru_clean.csv")
+print(paste("Base exportada con", nrow(data_clean), "casos completos."))
 ```
+## 4. Exportación
+Finalmente, exportamos la base de datos limpia en formato CSV para su uso en el Dashboard y análisis posteriores.
 
-CAMBIANDO DE NOMBRE A LAS VARIABLES
-
-```{r}
-data_final <- data_final %>%
-  rename(
-    problema = a4n,
-    autoritarismo_corrupcion = jc13,
-    autoritarismo_delincuencia = jc10,
-    cierre_congreso = jc15a,
-    democracia = ing4,
-    confianza_policia = b18,
-    inseguridad_barrio = aoj11,
-    sexo = sexin,
-    ingreso = q10inc,
-    region = estratopri
-  )
-
+```{r exportacion}
+export(data_clean, "data_autoritarismo_peru_clean.csv")
+print("Base de datos exportada exitosamente.")
 ```
+## Creación y Exportación del Diccionario de Datos
 
-GUARDANDO LA DATA 
+```{r crear_diccionario, message=FALSE, warning=FALSE}
+# 1. Cargar librerías necesarias para tablas y Word
+library(dplyr)
+library(flextable)
+library(officer)
 
-```{r}
-write.csv(data_final, "data_final_lapop_2023.csv", row.names = FALSE)
-
-```
-
-CREANDO EL DICCIONARIO DE DATOS 
-
-```{r}
+# 2. Definir el contenido del diccionario
+# Aquí describimos las variables tal como quedaron después de la limpieza
 diccionario_resumen <- tribble(
   ~Variable, ~Descripcion, ~Tipo_de_variable, ~Clasificacion,
   
-  # Dependiente
-  "problema (A4N)", 
-  "Percibe la seguridad como el principal problema del país.", 
-  "Dicotómica (1 = Seguridad, 0 = Otro)", 
-  "Dependiente",
+  # --- Identificadores ---
+  "IDNUM", "Identificador único del encuestado", "Nominal", "ID",
+  "PROV", "Departamento/Provincia (para el mapa)", "Nominal", "Geográfica",
+  "ESTRATOPRI", "Macro-región (Costa, Sierra, Selva)", "Nominal", "Control",
   
-  # Independientes
-  "autoritarismo_corrupcion (JC13)", 
-  "Justifica un golpe militar ante la corrupción.", 
-  "Dicotómica (1 = Sí justifica, 0 = No justifica)", 
-  "Independiente",
+  # --- Variable Independiente (X) ---
+  "prioridad_seguridad", "Percibe la seguridad como el problema principal del país", "Dicotómica (1 = Sí, 0 = Otro)", "Independiente (X)",
   
-  "autoritarismo_delincuencia (JC10)", 
-  "Justifica un golpe militar ante la delincuencia.", 
-  "Dicotómica (1 = Sí justifica, 0 = No justifica)", 
-  "Independiente",
+  # --- Variables Dependientes (Componentes del Índice Autoritario - Y) ---
+  "apoyo_golpe", "Justifica golpe militar por crimen o corrupción (Combina JC10/JC13)", "Dicotómica (1 = Sí, 0 = No)", "Componente Índice (Y)",
+  "apoyo_cierre", "Justifica cierre de Congreso o Corte Suprema (Combina JC15A/JC16A)", "Dicotómica (1 = Sí, 0 = No)", "Componente Índice (Y)",
+  "lider_fuerte", "Preferencia por un líder fuerte que rompe reglas", "Ordinal (1–5, Mayor = Más Autoritario)", "Componente Índice (Y)",
+  "limitar_oposicion", "Acuerdo con que el ejecutivo limite a la oposición", "Ordinal (1–7, Mayor = Más Autoritario)", "Componente Índice (Y)",
+  "cinismo_democ", "Rechazo a la democracia como mejor forma de gobierno", "Ordinal (1–7, Mayor = Más Cinismo)", "Componente Índice (Y)",
   
-  "cierre_congreso (JC15A)", 
-  "Aprueba que el presidente cierre el Congreso en crisis.", 
-  "Dicotómica (1 = Sí justifica, 0 = No justifica)", 
-  "Independiente",
-  
-  "democracia (ING4)", 
-  "Apoyo a la democracia como mejor forma de gobierno.", 
-  "Ordinal (1–7, mayor = más apoyo)", 
-  "Independiente",
-  
-  "confianza_policia (B18)", 
-  "Nivel de confianza en la Policía Nacional.", 
-  "Ordinal (1–7, mayor = más confianza)", 
-  "Independiente",
-  
-  # Controles
-  "educacion (EDRE)", 
-  "Nivel educativo agrupado en tres categorías.", 
-  "Ordinal (1 = Primaria o menos, 2 = Secundaria, 3 = Superior)", 
-  "Control",
-  
-  "inseguridad_barrio (AOJ11)", 
-  "Percepción de inseguridad en el barrio.", 
-  "Ordinal (1–4, mayor = más inseguridad)", 
-  "Control",
-  
-  "sexo (SEXIN)", 
-  "Sexo del entrevistado.", 
-  "Dicotómica (1 = Hombre, 0 = Mujer)", 
-  "Control",
-  
-  "ingreso (Q10INC)", 
-  "Nivel de ingreso mensual del hogar.", 
-  "Ordinal (rangos de ingreso)", 
-  "Control",
-
-  "region", 
-  "Región del Perú según el estrato muestral (Costa, Sierra, Selva).", 
-  "Categoría (Costa / Sierra / Selva)", 
-  "Control"
+  # --- Controles ---
+  "victima_delito", "Víctima de un delito en los últimos 12 meses", "Dicotómica (1 = Sí, 0 = No)", "Control",
+  "percep_inseguridad", "Sensación de inseguridad en el barrio", "Ordinal (1=Seguro ... 4=Muy Inseguro)", "Control",
+  "sexo_mujer", "Sexo del encuestado", "Dicotómica (1 = Mujer, 0 = Hombre)", "Control",
+  "educacion_anos", "Nivel educativo alcanzado (aprox. años)", "Ordinal (0 - 18)", "Control",
+  "ingresos_rango", "Rango de ingresos mensuales del hogar", "Ordinal (1 - 16)", "Control"
 )
 
-```
-
-EXPORTA A WORD
-
-```{r}
+# 3. Crear la tabla con formato bonito
 ft <- flextable(diccionario_resumen) %>%
-  set_caption("Diccionario de variables") %>%
+  set_caption("Diccionario de Variables - Estudio de Autoritarismo en Perú") %>%
   autofit() %>%
   theme_vanilla() %>%
+  # Estilo del encabezado (Azul oscuro con letras blancas)
   bold(part = "header") %>%
   bg(part = "header", bg = "#1F618D") %>%
   color(part = "header", color = "white") %>%
+  # Alineación y tamaño de letra
   fontsize(size = 11, part = "all") %>%
-  align(align = "left", part = "all")
+  align(align = "left", part = "all") %>%
+  # Ajustar ancho de columnas para que se lea bien en Word
+  width(j = 2, width = 3) # Dar más espacio a la columna Descripción
 
+# 4. Exportar a Word
+# Esto creará un archivo .docx en la carpeta del proyecto
 doc <- read_docx() %>%
-  body_add_par("Diccionario de variables", style = "heading 1") %>%
+  body_add_par("Diccionario de Variables: Inseguridad y Autoritarismo", style = "heading 1") %>%
+  body_add_par("El siguiente cuadro describe las variables procesadas desde la base LAPOP 2023.", style = "Normal") %>%
   body_add_flextable(ft)
 
 print(doc, target = "Diccionario_de_variables.docx")
-
 ```
 
