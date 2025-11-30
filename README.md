@@ -1,4 +1,21 @@
 # Diccionario de datos
 Análisis de la relación entre la percepción de inseguridad y las actitudes autoritarias en el Perú (2023), con base en datos de LAPOP.
 
-| Rol en el Análisis | Nombre de Variable (R) | Descripción / Transformación | Escala / Valores | | :--- | :--- | :--- | :--- | | **Independiente (X)** | **prioriza_seguridad** | ¿Considera la seguridad el problema más grave? (Original `A4N`) | **1** = Sí (Seguridad)<br>**0** = Otros problemas | | **Dependiente (Y)** | **actitud_lider** | Preferencia por líder fuerte que rompe reglas (Original `CSES6N` invertida) | **1** (Muy en desacuerdo) a<br>**5** (Muy de acuerdo) | | **Dependiente (Y)** | **actitud_oposicion** | Apoyo a que el ejecutivo limite a la oposición (Original `POP101`) | **1** (Muy en desacuerdo) a<br>**7** (Muy de acuerdo) | | **Dependiente (Y)** | **actitud_cinismo** | Rechazo a la democracia como mejor sistema (Original `ING4` invertida) | **1** (Apoya democracia) a<br>**7** (Rechaza democracia) | | **Dependiente (Y)** | **actitud_golpe** | Justificación de golpe militar por crimen o corrupción (Fusión `JC10`/`JC13`) | **1** = Sí justifica<br>**0** = No justifica | | **Dependiente (Y)** | **actitud_cierre** | Justificación de cierre del Congreso o Cortes (Fusión `JC15A`/`JC16A`) | **1** = Sí justifica<br>**0** = No justifica | | **Control** | **miedo_barrio** | Sensación de inseguridad en el vecindario (Original `AOJ11`) | **1** (Muy seguro) a<br>**4** (Muy inseguro) | | **Control** | **victima_crimen** | Victimización por delincuencia en últimos 12 meses (Original `VIC1EXT`) | **1** = Sí<br>**0** = No | | **Control** | **confianza_policia** | Confianza en la Policía Nacional (Original `B18`) | **1** (Nada) a<br>**7** (Mucho) | | **Sociodemográfico** | **mujer** | Sexo del entrevistado (Original `Q1TC`) | **1** = Mujer<br>**0** = Hombre | | **Sociodemográfico** | **educacion** | Años de educación acumulados (Original `EDRE`) | Numérica (0 a 18 aprox) | | **Sociodemográfico** | **ingresos** | Nivel de ingresos del hogar (Original `Q10INC`) | Ordinal (1 a 16) | | **Geográfico** | **departamento** | Departamento del encuestado (Original `PROV`) | Texto (Ej: "CUSCO") | | **Geográfico** | **region_macro** | Macro-región natural (Original `ESTRATOPRI`) | Costa / Sierra / Selva | | **ID** | **id** | Identificador único del encuestado | Numérica |
+
+| Tipo | Variable (nombre en R) | Descripción breve |
+| :--- | :--- | :--- |
+| **Independiente** | **prioriza_seguridad** (A4N) | Problema principal del país (1 = Seguridad, 0 = Otro) |
+| **Dependiente** | **actitud_golpe** (JC10/JC13) | Justifica golpe militar por crimen/corrupción (1 = Sí, 0 = No) |
+| **Dependiente** | **actitud_cierre** (JC15A/JC16A) | Justifica cierre de Congreso o Corte (1 = Sí, 0 = No) |
+| **Dependiente** | **actitud_lider** (CSES6N) | Preferencia por líder fuerte que rompe reglas (1–5) |
+| **Dependiente** | **actitud_oposicion** (POP101) | Apoyo a que el ejecutivo limite a la oposición (1–7) |
+| **Dependiente** | **actitud_cinismo** (ING4) | Rechazo a la democracia como mejor sistema (1–7) |
+| **Control** | **victima_crimen** (VIC1EXT) | Víctima de un delito en los últimos 12 meses (1 = Sí, 0 = No) |
+| **Control** | **miedo_barrio** (AOJ11) | Sensación de inseguridad en el barrio (1 = Seguro ... 4 = Inseguro) |
+| **Control** | **confianza_policia** (B18) | Nivel de confianza en la Policía Nacional (1–7) |
+| **Control** | **mujer** (Q1TC) | Sexo del entrevistado (1 = Mujer, 0 = Hombre) |
+| **Control** | **educacion** (EDRE) | Nivel educativo alcanzado (Años acumulados 0–18) |
+| **Control** | **ingresos** (Q10INC) | Nivel de ingreso familiar mensual (Escala 1–16) |
+| **Geográfica** | **region_macro** (ESTRATOPRI) | Región natural (Costa, Sierra, Selva) |
+| **Geográfica** | **departamento** (PROV) | Nombre del Departamento/Provincia |
+| **ID** | **id** (IDNUM) | Identificador único del encuestado |
