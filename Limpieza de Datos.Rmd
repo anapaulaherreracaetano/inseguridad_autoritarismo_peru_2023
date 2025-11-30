@@ -1,0 +1,203 @@
+---
+title: "Limpieza de Datos - Inseguridad y Autoritarismo"
+author: "Tu Nombre"
+date: "2025-10-10"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+1. Carga de Paquetes y Datos
+Cargamos las librerías necesarias para la manipulación de datos y lectura de archivos de Stata (.dta).
+
+```{r}
+library(haven)  # Para leer .dta de LAPOP
+library(dplyr)  # Para manipulación de datos (tidyverse)
+library(rio)    # Para exportar el csv final
+
+# Cargar la base de datos original
+# Asegúrate que el archivo .dta esté en la misma carpeta que este Rmd
+nombre_archivo <- "PER_2023_LAPOP_AmericasBarometer_v1.0_w.dta"
+raw_data <- read_dta(nombre_archivo)
+
+# Estandarizar nombres de columnas a minúsculas para evitar errores de tipeo
+names(raw_data) <- tolower(names(raw_data))
+
+print("Base de datos cargada correctamente.")
+```
+
+2. Selección y Transformación de Variables
+En esta sección realizamos tres procesos clave:
+
+Selección: Nos quedamos solo con las variables del estudio.
+
+Conversión Numérica: Transformamos las escalas de opinión a números (numeric) para que funcionen en el Análisis Factorial (EFA) y Cluster.
+
+Recodificación: Invertimos las escalas cuando es necesario para que siempre Mayor Valor = Mayor Autoritarismo.
+
+```{r}
+data_clean <- raw_data %>%
+  transmute(
+    # --- A. IDENTIFICACIÓN Y GEOGRAFÍA ---
+    id = idnum,
+    
+    # PROV: Para el MAPA (Departamentos: Cusco, Piura...)
+    # Lo convertimos a texto/factor para que se lean los nombres
+    departamento = as.character(as_factor(prov)), 
+    
+    # ESTRATOPRI: Para la REGRESIÓN (Control Regional: Costa, Sierra, Selva)
+    region_macro = as_factor(estratopri), 
+    
+    # --- B. VARIABLES PARA ÍNDICE Y CLUSTER (ACTITUDES AUTORITARIAS) ---
+    # Nota: Deben ser numéricas para el EFA.
+    
+    # 1. Líder Fuerte (cses6n): 
+    # Original: 1=Muy Bueno (Autoritario) ... 5=Muy Malo (Demócrata)
+    # Transformación: Invertimos (6 - valor) -> 5=Muy Autoritario
+    actitud_lider = 6 - as.numeric(cses6n),
+    
+    # 2. Limitar Oposición (pop101): 
+    # Original: 1=Desacuerdo ... 7=Acuerdo (Autoritario). 
+    # Se mantiene igual.
+    actitud_oposicion = as.numeric(pop101),
+    
+    # 3. Cinismo Democrático (ing4): 
+    # Original: "La democracia es mejor..." 1=Acuerdo ... 7=Desacuerdo
+    # Transformación: Invertimos (8 - valor) para que alto sea "Rechazo a democracia".
+    actitud_cinismo = 8 - as.numeric(ing4),
+    
+    # 4. Golpe Militar (Fusión jc10/jc13 - Split Sample):
+    # Unimos las dos columnas. 1=Justifica, 2=No justifica.
+    # Recodificamos: 1 -> 1 (Autoritario), 2 -> 0 (No autoritario).
+    golpe_raw = coalesce(as.numeric(jc10), as.numeric(jc13)),
+    actitud_golpe = case_when(
+      golpe_raw == 1 ~ 1, 
+      golpe_raw == 2 ~ 0, 
+      TRUE ~ NA_real_
+    ),
+    
+    # 5. Cierre Instituciones (Fusión jc15a/jc16a - Split Sample):
+    # Mismo proceso: 1=Justifica (Autoritario), 0=No.
+    cierre_raw = coalesce(as.numeric(jc15a), as.numeric(jc16a)),
+    actitud_cierre = case_when(
+      cierre_raw == 1 ~ 1, 
+      cierre_raw == 2 ~ 0, 
+      TRUE ~ NA_real_
+    ),
+    
+    # --- C. VARIABLE INDEPENDIENTE (INSEGURIDAD) ---
+    # a4n: ¿Cuál es el problema más grave? (Código 2 = Seguridad)
+    # 1 = Prioriza seguridad, 0 = Prioriza otros temas.
+    prioriza_seguridad = if_else(as.numeric(a4n) == 2, 1, 0, missing = 0),
+    
+    # --- D. VARIABLES DE CONTROL ---
+    
+    # Miedo en el barrio (aoj11): 1=Seguro ... 4=Muy Inseguro
+    # La tratamos como numérica ordinal.
+    miedo_barrio = as.numeric(aoj11), 
+    
+    # Victimización (vic1ext): ¿Ha sido víctima? 1=Sí, 2=No.
+    # Recodificamos a 1 (Sí) y 0 (No).
+    victima_crimen = if_else(as.numeric(vic1ext) == 1, 1, 0, missing = 0),
+    
+    # Confianza Policía (b18): Escala 1-7
+    confianza_policia = as.numeric(b18),
+    
+    # Sociodemográficos
+    # Sexo (q1tc_r): 1=Hombre, 2=Mujer. -> Dummy Mujer=1
+    mujer = if_else(as.numeric(q1tc_r) == 2, 1, 0),
+    
+    educacion = as.numeric(edre), # Años de educación
+    ingresos = as.numeric(q10inc) # Nivel de ingresos
+  ) %>%
+  # FILTRO FINAL:
+  # Eliminamos casos que no respondieron las preguntas de actitudes (EFA)
+  filter(!is.na(actitud_lider), !is.na(actitud_oposicion), 
+         !is.na(actitud_cinismo), !is.na(actitud_golpe), 
+         !is.na(actitud_cierre))
+
+# Verificación de la estructura
+str(data_clean)
+```
+# GUARDAR LA DATA LIMPIA
+
+```{r}
+library(rio)
+
+# 2. Guardar el archivo
+# Esto creará 'data_clean_final.csv' en la carpeta donde tienes tu proyecto
+export(data_clean, "data_clean_final.csv")
+```
+
+# GENERADOR DE DICCIONARIO DE DATOS (EXPORTACIÓN A WORD)
+
+```{r}
+# 1. Instalar librerías necesarias (si no las tienes)
+if(!require(flextable)) install.packages("flextable")
+if(!require(officer)) install.packages("officer")
+if(!require(dplyr)) install.packages("dplyr")
+
+library(flextable)
+library(officer)
+library(dplyr)
+
+# 2. Crear la Data del Diccionario manualmente
+# Definimos filas y columnas describiendo nuestras variables limpias
+diccionario_df <- tribble(
+  ~Variable_R, ~Descripcion_Original, ~Escala_Codificacion, ~Rol_Analisis,
+  
+  # --- Variable Independiente (X) ---
+  "prioriza_seguridad", "Problema más grave del país (A4N)", "1 = Seguridad, 0 = Otro", "Independiente (X)",
+  
+  # --- Variables Dependientes (Y - Actitudes) ---
+  "actitud_golpe", "Justificación de golpe militar (JC10/JC13)", "1 = Sí justifica, 0 = No", "Dependiente (Índice)",
+  "actitud_cierre", "Justificación cierre congreso/corte (JC15/16)", "1 = Sí justifica, 0 = No", "Dependiente (Índice)",
+  "actitud_lider", "Líder fuerte que no cumple reglas (CSES6N)", "1 = Muy en desacuerdo ... 5 = Muy de acuerdo", "Dependiente (Índice)",
+  "actitud_oposicion", "Ejecutivo limita a la oposición (POP101)", "1 = Muy en desacuerdo ... 7 = Muy de acuerdo", "Dependiente (Índice)",
+  "actitud_cinismo", "Democracia es mejor sistema (ING4)", "1 = Cree en democracia ... 7 = Cinismo/Rechazo", "Dependiente (Índice)",
+  
+  # --- Variables de Control ---
+  "miedo_barrio", "Inseguridad en el barrio (AOJ11)", "1 = Muy seguro ... 4 = Muy inseguro", "Control (Percepción)",
+  "victima_crimen", "Victimización por delincuencia (VIC1EXT)", "1 = Sí, 0 = No", "Control (Realidad)",
+  "confianza_policia", "Confianza en la Policía (B18)", "1 = Nada ... 7 = Mucho", "Control (Institucional)",
+  "mujer", "Sexo del entrevistado (Q1TC)", "1 = Mujer, 0 = Hombre", "Control (Socio)",
+  "educacion", "Nivel educativo (EDRE)", "Años acumulados (aprox. 0-18)", "Control (Socio)",
+  "ingresos", "Nivel de ingresos familiar (Q10INC)", "Escala ordinal (1-16)", "Control (Socio)",
+  
+  # --- Geografía ---
+  "region_macro", "Estrato muestral (ESTRATOPRI)", "Costa / Sierra / Selva", "Control Regional",
+  "departamento", "Departamento (PROV)", "Nombre del departamento", "Uso para Mapa"
+)
+
+# 3. Dar formato bonito con Flextable
+ft <- flextable(diccionario_df) %>%
+  # Ancho automático
+  autofit() %>%
+  # Encabezado azul oscuro con letras blancas (Estilo Académico)
+  bg(part = "header", bg = "#2C3E50") %>%
+  color(part = "header", color = "white") %>%
+  bold(part = "header") %>%
+  # Alineación
+  align(align = "left", part = "all") %>%
+  # Bordes
+  border_remove() %>%
+  border_inner_h(part = "body", border = fp_border(color = "gray")) %>%
+  border_outer(border = fp_border(color = "black", width = 1.5)) %>%
+  # Título de la tabla
+  set_caption("Tabla 1. Diccionario de Variables: Inseguridad y Autoritarismo en Perú (LAPOP 2023)")
+
+# 4. Exportar a Word
+doc <- read_docx() %>%
+  body_add_par("Anexo: Diccionario de Datos", style = "heading 1") %>%
+  body_add_par("A continuación se detallan las variables seleccionadas y recodificadas para el análisis:", style = "Normal") %>%
+  body_add_flextable(ft)
+
+# Guardar el archivo
+print(doc, target = "Diccionario_de_Datos.docx")
+
+message("¡Listo! Busca el archivo 'Diccionario_de_Datos.docx' en tu carpeta.")
+```
+
