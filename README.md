@@ -1,19 +1,4 @@
 # Diccionario de datos
 Análisis de la relación entre la percepción de inseguridad y las actitudes autoritarias en el Perú (2023), con base en datos de LAPOP.
 
-| Tipo              | Variable (nombre en R)       | Descripción breve                                            |
-| ----------------- | ---------------------------- | ------------------------------------------------------------ |
-| **Independiente** | prioridad_seguridad (A4N)    | Problema principal del país (1 = Seguridad, 0 = Otro)        |
-| **Dependiente** | apoyo_golpe (JC10/JC13)      | Justifica golpe militar por crimen/corrupción (1 = Sí, 0 = No)|
-| **Dependiente** | apoyo_cierre (JC15A/JC16A)   | Justifica cierre de Congreso/Corte (1 = Sí, 0 = No)          |
-| **Dependiente** | lider_fuerte (CSES6N)        | Apoyo a líder que rompe reglas (1 = Bajo ... 5 = Alto)       |
-| **Dependiente** | limitar_oposicion (POP101)   | Apoyo a limitar voto opositor (1 = Bajo ... 7 = Alto)        |
-| **Dependiente** | cinismo_democ (ING4)         | Rechazo a la democracia (1 = Bajo ... 7 = Alto)              |
-| **Control** | victima_delito (VIC1EXT)     | Víctima de delito último año (1 = Sí, 0 = No)                |
-| **Control** | percep_inseguridad (AOJ11)   | Inseguridad en el barrio (1 = Seguro ... 4 = Muy inseguro)   |
-| **Control** | sexo_mujer (Q1TC)            | Sexo del encuestado (1 = Mujer, 0 = Hombre)                  |
-| **Control** | educacion_anos (EDRE)        | Años de educación alcanzados (Numérico 0-18)                 |
-| **Control** | ingresos_rango (Q10INC)      | Nivel de ingreso familiar mensual (Ordinal 1-16)             |
-| **Geográfica** | PROV                         | Departamento/Provincia (para mapas)                          |
-| **Geográfica** | ESTRATOPRI                   | Macro-región (Costa, Sierra, Selva)                          |
-| **ID** | IDNUM                        | Identificador único del encuestado                           |
+| Rol en el Análisis | Nombre de Variable (R) | Descripción / Transformación | Escala / Valores | | :--- | :--- | :--- | :--- | | **Independiente (X)** | **prioriza_seguridad** | ¿Considera la seguridad el problema más grave? (Original `A4N`) | **1** = Sí (Seguridad)<br>**0** = Otros problemas | | **Dependiente (Y)** | **actitud_lider** | Preferencia por líder fuerte que rompe reglas (Original `CSES6N` invertida) | **1** (Muy en desacuerdo) a<br>**5** (Muy de acuerdo) | | **Dependiente (Y)** | **actitud_oposicion** | Apoyo a que el ejecutivo limite a la oposición (Original `POP101`) | **1** (Muy en desacuerdo) a<br>**7** (Muy de acuerdo) | | **Dependiente (Y)** | **actitud_cinismo** | Rechazo a la democracia como mejor sistema (Original `ING4` invertida) | **1** (Apoya democracia) a<br>**7** (Rechaza democracia) | | **Dependiente (Y)** | **actitud_golpe** | Justificación de golpe militar por crimen o corrupción (Fusión `JC10`/`JC13`) | **1** = Sí justifica<br>**0** = No justifica | | **Dependiente (Y)** | **actitud_cierre** | Justificación de cierre del Congreso o Cortes (Fusión `JC15A`/`JC16A`) | **1** = Sí justifica<br>**0** = No justifica | | **Control** | **miedo_barrio** | Sensación de inseguridad en el vecindario (Original `AOJ11`) | **1** (Muy seguro) a<br>**4** (Muy inseguro) | | **Control** | **victima_crimen** | Victimización por delincuencia en últimos 12 meses (Original `VIC1EXT`) | **1** = Sí<br>**0** = No | | **Control** | **confianza_policia** | Confianza en la Policía Nacional (Original `B18`) | **1** (Nada) a<br>**7** (Mucho) | | **Sociodemográfico** | **mujer** | Sexo del entrevistado (Original `Q1TC`) | **1** = Mujer<br>**0** = Hombre | | **Sociodemográfico** | **educacion** | Años de educación acumulados (Original `EDRE`) | Numérica (0 a 18 aprox) | | **Sociodemográfico** | **ingresos** | Nivel de ingresos del hogar (Original `Q10INC`) | Ordinal (1 a 16) | | **Geográfico** | **departamento** | Departamento del encuestado (Original `PROV`) | Texto (Ej: "CUSCO") | | **Geográfico** | **region_macro** | Macro-región natural (Original `ESTRATOPRI`) | Costa / Sierra / Selva | | **ID** | **id** | Identificador único del encuestado | Numérica |
