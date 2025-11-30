@@ -1,0 +1,1432 @@
+id,departamento,region_macro,actitud_lider,actitud_oposicion,actitud_cinismo,golpe_raw,actitud_golpe,cierre_raw,actitud_cierre,prioriza_seguridad,miedo_barrio,victima_crimen,confianza_policia,mujer,educacion,ingresos
+2277,Lima,Lima Metropolitana,3,2,7,1,1,2,0,1,4,1,3,1,4,1105
+9874,Lima,Lima Metropolitana,4,4,5,1,1,1,1,1,3,0,5,1,5,1111
+2387,Lima,Lima Metropolitana,4,1,1,2,0,1,1,0,3,0,7,1,6,1112
+2585,Lima,Lima Metropolitana,4,5,3,1,1,1,1,0,2,0,6,1,3,1104
+3828,Lima,Lima Metropolitana,4,1,3,2,0,2,0,1,3,1,6,0,6,1111
+1363,Lima,Lima Metropolitana,2,1,4,1,1,2,0,0,2,1,4,0,6,1115
+1446,Lima,Lima Metropolitana,1,4,2,2,0,1,1,0,2,0,5,0,5,1102
+224,Lima,Lima Metropolitana,3,4,5,1,1,2,0,1,3,0,6,0,2,1111
+805,Lima,Lima Metropolitana,3,3,4,2,0,1,1,0,2,0,2,0,6,1111
+1661,Lima,Lima Metropolitana,3,5,2,2,0,1,1,0,2,0,6,0,6,1107
+4900,Lima,Lima Metropolitana,3,5,4,1,1,1,1,0,4,0,5,1,4,1104
+2590,Lima,Lima Metropolitana,3,4,1,1,1,1,1,0,4,1,5,1,4,1107
+9079,Lima,Lima Metropolitana,2,2,7,1,1,2,0,1,1,0,1,0,4,1108
+2199,Lima,Lima Metropolitana,1,5,3,2,0,1,1,0,3,0,5,1,6,1106
+1203,Lima,Lima Metropolitana,3,3,6,2,0,2,0,0,2,0,5,0,6,1113
+2123,Lima,Lima Metropolitana,3,4,4,1,1,2,0,1,3,0,4,1,4,1114
+8374,Lima,Lima Metropolitana,1,1,4,2,0,2,0,1,3,1,4,1,5,1106
+7097,Lima,Costa Sur,2,6,3,1,1,2,0,0,3,0,4,1,6,1105
+1189,Lima,Costa Sur,3,3,5,2,0,2,0,0,4,0,1,1,5,1106
+1549,Lima,Lima Metropolitana,3,3,5,1,1,2,0,0,4,1,2,0,4,1108
+9694,Lima,Costa Sur,3,2,5,1,1,2,0,0,3,1,7,0,4,1103
+9502,Lima,Lima Metropolitana,2,1,7,1,1,2,0,1,4,1,3,1,2,
+7579,Lima,Lima Metropolitana,3,4,3,1,1,2,0,1,1,1,1,0,6,1112
+3144,Lima,Lima Metropolitana,3,3,6,1,1,2,0,0,3,1,1,1,4,1107
+9653,Lima,Costa Sur,4,5,7,2,0,1,1,0,3,0,2,0,4,1104
+1589,Lima,Costa Sur,4,7,3,1,1,1,1,0,2,0,4,1,3,1105
+8090,Lima,Lima Metropolitana,4,5,3,1,1,2,0,0,3,0,4,0,6,1111
+7012,Lima,Costa Sur,3,6,3,1,1,2,0,0,2,1,3,1,4,1105
+666,Lima,Costa Sur,1,4,5,1,1,1,1,0,2,1,2,0,3,1105
+9161,Lima,Costa Sur,2,3,4,1,1,2,0,0,3,1,4,0,6,1115
+9386,Lima,Lima Metropolitana,2,3,1,2,0,1,1,0,4,1,5,1,4,1106
+2464,Lima,Lima Metropolitana,4,5,4,1,1,1,1,0,3,0,6,1,4,1103
+765,Lima,Costa Sur,2,2,6,1,1,1,1,0,3,0,3,0,4,1103
+6371,Lima,Costa Sur,5,4,3,2,0,1,1,0,4,1,5,1,6,1106
+9846,Lima,Costa Sur,2,3,5,2,0,2,0,0,3,1,4,0,4,1106
+7444,Lima,Costa Sur,2,3,5,1,1,1,1,1,3,1,5,1,2,1108
+4236,Lima,Lima Metropolitana,2,1,6,2,0,1,1,0,3,0,4,0,4,1107
+6440,Lima,Lima Metropolitana,3,4,4,2,0,2,0,0,3,0,2,1,5,1106
+6084,Lima,Lima Metropolitana,2,1,3,1,1,2,0,0,3,0,3,1,4,1106
+7315,Lima,Lima Metropolitana,2,5,1,1,1,2,0,0,4,1,6,0,5,1109
+2899,Lima,Lima Metropolitana,3,4,6,2,0,1,1,0,4,1,1,0,4,
+5056,Piura,Sierra Norte,2,4,5,2,0,2,0,0,4,0,5,1,4,1103
+3075,Piura,Costa Norte,3,5,3,1,1,1,1,1,3,1,5,0,6,1107
+1283,Piura,Sierra Norte,3,4,1,1,1,1,1,0,1,0,6,1,2,1101
+6173,Piura,Sierra Norte,1,1,1,2,0,2,0,0,1,0,4,0,6,1107
+7126,Piura,Sierra Norte,4,3,3,2,0,1,1,0,1,0,4,0,4,1109
+1719,Piura,Costa Norte,4,4,1,2,0,1,1,0,4,1,1,0,6,1106
+4364,Piura,Sierra Norte,1,2,3,2,0,2,0,0,4,0,6,1,5,1104
+2342,Piura,Sierra Norte,2,2,5,2,0,2,0,0,1,0,2,1,6,
+3318,Piura,Costa Norte,1,6,6,1,1,2,0,0,3,0,7,1,5,1105
+3976,Piura,Sierra Norte,2,7,1,1,1,2,0,1,3,0,2,1,4,
+709,Piura,Costa Norte,2,1,7,1,1,2,0,0,3,1,4,1,4,1107
+7212,Piura,Costa Norte,2,4,3,1,1,2,0,1,4,1,2,0,4,1102
+8641,Piura,Sierra Norte,3,2,4,1,1,1,1,0,1,0,5,0,4,1108
+3854,Piura,Sierra Norte,2,3,1,2,0,2,0,0,2,0,1,0,5,1105
+8749,Lambayeque,Costa Norte,2,2,1,2,0,2,0,0,4,0,4,1,5,1112
+1732,Lambayeque,Costa Norte,3,4,4,1,1,1,1,1,3,0,4,1,4,1105
+3013,Lambayeque,Costa Norte,3,1,4,1,1,1,1,0,2,0,1,0,3,1107
+8421,Lambayeque,Costa Norte,1,1,3,1,1,1,1,0,4,1,1,0,4,1109
+8418,Lambayeque,Costa Norte,3,5,3,1,1,2,0,0,1,0,7,1,4,1104
+9401,Lambayeque,Costa Norte,2,1,1,2,0,1,1,0,1,0,4,0,4,1108
+9102,Lambayeque,Costa Norte,4,3,4,1,1,2,0,0,2,0,4,0,6,1107
+3882,Lambayeque,Costa Norte,4,2,5,1,1,1,1,0,2,0,5,0,5,1102
+212,Lambayeque,Costa Norte,2,6,3,1,1,1,1,0,2,1,1,0,6,1111
+1168,Lambayeque,Costa Norte,4,1,1,2,0,2,0,0,2,0,3,0,5,1111
+6121,Lambayeque,Costa Norte,3,5,3,2,0,2,0,0,2,1,6,1,4,1108
+9075,Lambayeque,Costa Norte,2,7,4,1,1,1,1,0,3,1,2,0,4,1106
+8233,Lambayeque,Costa Norte,2,5,4,2,0,2,0,0,4,1,4,1,6,1107
+5832,Lambayeque,Costa Norte,3,3,3,2,0,2,0,0,3,1,4,0,5,1108
+5697,Lambayeque,Costa Norte,4,5,3,1,1,2,0,0,1,0,1,0,4,1103
+7011,Lambayeque,Costa Norte,4,1,3,2,0,2,0,0,2,0,3,0,6,1112
+9903,Lambayeque,Costa Norte,1,2,2,1,1,2,0,0,4,1,5,1,3,1102
+3058,Lambayeque,Costa Norte,2,3,3,1,1,1,1,0,3,1,4,1,5,1104
+9055,Lima,Lima Metropolitana,4,4,3,1,1,2,0,0,2,1,3,0,4,1112
+5622,Lima,Lima Metropolitana,4,2,5,2,0,2,0,0,2,0,3,1,5,1104
+4042,Lima,Lima Metropolitana,4,1,1,2,0,2,0,0,4,0,4,0,6,1114
+8123,Lima,Lima Metropolitana,1,3,4,2,0,2,0,1,4,0,3,1,5,1104
+6449,Lima,Lima Metropolitana,1,5,2,1,1,2,0,1,4,1,1,0,3,1106
+4550,Lima,Lima Metropolitana,2,5,1,1,1,1,1,1,3,0,7,1,5,1111
+1571,Lima,Lima Metropolitana,3,1,4,1,1,1,1,0,4,0,3,1,1,1103
+2817,Lima,Lima Metropolitana,3,4,4,1,1,2,0,1,4,0,2,1,6,1111
+5782,Lima,Lima Metropolitana,3,2,2,2,0,1,1,0,3,1,1,1,4,1103
+927,Lima,Lima Metropolitana,4,4,6,1,1,2,0,0,4,1,2,0,4,1107
+6140,Lima,Lima Metropolitana,2,3,2,1,1,2,0,0,2,0,4,0,5,1115
+4967,Lima,Lima Metropolitana,3,4,4,1,1,1,1,0,4,1,3,1,5,1106
+5352,Lima,Lima Metropolitana,2,7,1,1,1,1,1,0,3,0,6,1,4,1102
+109,Lima,Lima Metropolitana,2,4,4,2,0,2,0,1,3,0,2,1,5,1111
+7490,Lima,Lima Metropolitana,3,2,4,1,1,1,1,1,4,1,1,0,4,1107
+5680,Lima,Lima Metropolitana,2,1,7,2,0,2,0,1,4,0,7,1,1,1103
+4476,Lima,Lima Metropolitana,2,3,4,2,0,1,1,1,4,1,5,0,3,1103
+1738,Lima,Lima Metropolitana,2,5,5,1,1,1,1,1,3,1,4,0,4,1111
+5545,Lima,Lima Metropolitana,3,1,1,2,0,2,0,1,3,1,7,0,5,1112
+1792,Piura,Costa Norte,1,5,3,1,1,1,1,0,2,1,4,0,5,1104
+7354,Piura,Sierra Norte,2,7,1,1,1,2,0,0,4,0,7,0,2,1104
+4141,Piura,Costa Norte,2,5,4,1,1,1,1,0,1,0,6,0,4,1101
+9531,Piura,Costa Norte,3,3,5,2,0,2,0,0,3,0,6,1,4,1101
+90,Piura,Costa Norte,3,4,4,2,0,2,0,0,2,0,4,1,6,1102
+5279,Piura,Sierra Norte,1,3,5,1,1,1,1,0,1,0,1,1,4,1101
+8514,Piura,Sierra Norte,1,4,4,2,0,2,0,0,2,0,4,1,6,1101
+8034,Piura,Costa Norte,3,4,3,1,1,2,0,0,1,1,6,0,6,1106
+6941,Piura,Sierra Norte,2,4,1,2,0,1,1,0,4,1,5,1,4,1105
+3410,Piura,Sierra Norte,2,3,1,1,1,2,0,0,1,0,4,0,5,1109
+5723,Piura,Costa Norte,3,4,4,1,1,2,0,0,4,1,3,1,5,1103
+5471,Lambayeque,Costa Norte,1,7,3,2,0,2,0,0,4,0,6,1,0,1101
+7223,Lambayeque,Costa Norte,3,4,3,2,0,2,0,0,2,1,3,0,5,1105
+7868,Lambayeque,Costa Norte,1,1,1,2,0,2,0,0,3,0,4,0,6,1112
+16,Lambayeque,Costa Norte,4,2,3,2,0,2,0,0,2,0,6,0,1,1104
+5852,Lambayeque,Costa Norte,4,6,2,2,0,2,0,0,4,1,3,0,2,1102
+7401,Lambayeque,Costa Norte,1,1,7,2,0,2,0,0,4,0,1,1,1,1101
+5501,Lambayeque,Costa Norte,3,6,5,1,1,1,1,0,3,1,1,0,4,1104
+2168,Lambayeque,Costa Norte,3,4,3,1,1,1,1,1,3,1,6,0,4,1106
+8802,Amazonas,Selva,2,5,3,1,1,1,1,0,1,0,7,1,2,1102
+5248,Amazonas,Selva,4,3,5,2,0,1,1,0,1,0,1,0,4,1104
+1420,Amazonas,Selva,3,1,3,1,1,1,1,0,3,1,6,1,4,1102
+7616,Amazonas,Selva,2,2,5,1,1,1,1,1,1,0,6,0,2,1103
+8911,Amazonas,Selva,4,3,1,1,1,2,0,0,1,0,5,0,1,1102
+4166,Amazonas,Selva,3,1,4,2,0,1,1,0,2,1,4,1,5,1102
+8227,Callao,Lima Metropolitana,1,5,6,2,0,1,1,1,4,0,1,0,6,1113
+2928,Callao,Lima Metropolitana,3,4,5,2,0,2,0,0,4,0,4,1,4,1107
+4891,Callao,Lima Metropolitana,1,2,3,1,1,1,1,1,2,1,5,1,4,1107
+5927,Callao,Lima Metropolitana,3,2,5,1,1,2,0,0,3,0,4,1,5,1111
+1869,Callao,Lima Metropolitana,3,1,1,1,1,2,0,0,3,1,4,0,6,1115
+5178,Callao,Lima Metropolitana,2,1,1,2,0,2,0,0,3,0,4,0,6,1113
+1653,Callao,Lima Metropolitana,4,4,3,1,1,1,1,1,4,1,4,1,5,1105
+1876,Callao,Lima Metropolitana,5,6,1,2,0,2,0,0,1,0,7,1,4,1108
+8541,Callao,Lima Metropolitana,3,1,2,2,0,2,0,0,3,0,3,1,6,1108
+2374,Callao,Lima Metropolitana,3,2,4,2,0,2,0,1,1,0,3,0,6,1112
+5329,Callao,Lima Metropolitana,1,3,2,1,1,1,1,1,4,0,5,1,6,1114
+2549,Callao,Lima Metropolitana,4,3,4,1,1,1,1,0,3,0,1,0,6,1114
+7782,Callao,Lima Metropolitana,1,1,7,2,0,1,1,0,3,0,1,0,6,1115
+8655,Callao,Lima Metropolitana,3,2,7,1,1,1,1,0,4,0,2,0,3,1102
+9675,Callao,Lima Metropolitana,2,4,1,1,1,1,1,0,4,0,7,0,5,1110
+3104,Callao,Lima Metropolitana,1,2,2,2,0,2,0,0,2,0,2,0,6,1112
+6539,Lima,Lima Metropolitana,2,3,1,2,0,1,1,0,4,1,3,1,5,1106
+9673,Lima,Lima Metropolitana,1,4,7,1,1,2,0,0,2,0,3,1,4,1107
+9851,Lima,Lima Metropolitana,2,4,5,1,1,1,1,1,4,0,5,0,4,1111
+4372,Lima,Lima Metropolitana,2,3,4,1,1,2,0,0,2,0,3,1,6,1106
+1471,Lima,Lima Metropolitana,2,2,2,1,1,1,1,0,3,0,2,0,5,1112
+3423,Lima,Lima Metropolitana,4,5,2,1,1,2,0,0,3,0,4,0,4,1111
+3943,Lima,Lima Metropolitana,4,4,2,1,1,2,0,0,4,1,7,1,1,
+4316,Lima,Lima Metropolitana,1,2,6,1,1,1,1,0,4,0,2,0,4,1106
+1836,Lima,Lima Metropolitana,2,4,1,2,0,2,0,0,4,1,1,1,4,1107
+7740,Lima,Lima Metropolitana,3,1,2,2,0,2,0,0,2,0,6,0,5,1112
+9777,Lima,Lima Metropolitana,3,1,4,2,0,2,0,0,2,0,4,0,4,1111
+6273,Lima,Lima Metropolitana,2,3,2,1,1,2,0,0,2,0,5,1,6,1108
+8091,Lima,Lima Metropolitana,2,3,1,2,0,2,0,0,4,1,3,0,3,1108
+1940,Lima,Lima Metropolitana,4,3,3,2,0,1,1,0,1,0,6,1,4,
+3548,Arequipa,Costa Sur,2,3,4,2,0,2,0,0,2,0,6,1,3,1102
+5433,Arequipa,Costa Sur,4,2,2,2,0,1,1,0,4,1,3,0,6,1112
+3667,Arequipa,Costa Sur,3,3,3,1,1,1,1,0,3,0,5,0,4,1101
+383,Arequipa,Costa Sur,2,1,3,2,0,1,1,0,3,0,2,0,5,
+6293,Arequipa,Costa Sur,2,5,4,1,1,1,1,1,4,1,5,0,5,1107
+8893,Arequipa,Costa Sur,2,7,7,1,1,2,0,0,3,1,1,1,6,1106
+4383,Arequipa,Costa Sur,1,4,5,2,0,2,0,0,3,0,7,1,4,
+2088,Arequipa,Costa Sur,2,4,6,1,1,2,0,1,2,0,1,0,5,1107
+1378,Arequipa,Costa Sur,1,2,4,1,1,2,0,0,2,1,3,1,6,1107
+8647,Arequipa,Costa Sur,2,4,2,1,1,1,1,0,3,0,4,1,6,
+4692,Arequipa,Costa Sur,2,4,5,2,0,2,0,0,3,1,5,0,2,1102
+5935,Moquegua,Costa Sur,2,4,4,1,1,2,0,0,3,0,5,1,3,1104
+4056,Moquegua,Costa Sur,3,5,3,2,0,2,0,0,3,0,1,1,6,1110
+4564,Moquegua,Costa Sur,3,4,2,2,0,2,0,0,1,1,1,0,5,1113
+8741,Moquegua,Costa Sur,3,2,4,1,1,1,1,0,3,1,2,0,6,1115
+1716,Moquegua,Costa Sur,2,6,3,1,1,2,0,0,3,1,6,1,3,1112
+9734,Cajamarca,Sierra Norte,4,4,4,1,1,2,0,0,2,0,5,1,6,1112
+3350,Cajamarca,Selva,3,3,3,1,1,1,1,1,2,1,2,0,4,1105
+3128,Cajamarca,Selva,2,3,6,2,0,2,0,0,3,1,4,1,2,1103
+2569,Cajamarca,Sierra Norte,2,6,1,1,1,1,1,0,2,0,3,1,6,1108
+6548,Cajamarca,Sierra Norte,3,4,3,1,1,2,0,0,3,1,6,0,6,1108
+177,Cajamarca,Sierra Norte,3,3,5,2,0,2,0,0,3,0,3,1,2,1101
+2815,Cajamarca,Selva,2,6,3,2,0,1,1,1,3,0,3,1,4,1103
+5230,Cajamarca,Sierra Norte,3,5,3,1,1,2,0,0,1,0,4,0,2,1103
+4302,Cajamarca,Selva,4,5,2,2,0,2,0,0,1,0,4,1,2,1105
+2643,Cajamarca,Selva,2,2,5,1,1,1,1,0,3,0,5,0,6,1107
+8713,Cajamarca,Sierra Norte,4,2,5,1,1,2,0,0,3,1,1,0,6,1113
+3342,Cajamarca,Selva,3,5,4,1,1,2,0,0,2,0,1,0,3,1105
+4471,Ica,Costa Sur,2,3,3,1,1,2,0,0,3,1,7,1,5,1114
+3121,Ica,Costa Sur,2,3,1,1,1,2,0,0,3,0,2,0,4,
+8572,Ica,Costa Sur,3,2,2,1,1,2,0,0,3,0,5,1,6,
+6591,Cajamarca,Sierra Norte,4,3,4,2,0,2,0,0,2,0,5,0,2,1104
+5482,Cajamarca,Sierra Norte,3,4,1,2,0,1,1,0,2,0,1,1,5,1101
+2657,Cajamarca,Sierra Norte,3,3,6,1,1,1,1,0,2,1,5,0,3,1104
+4744,Cajamarca,Sierra Norte,5,1,3,2,0,2,0,0,1,0,3,1,0,1101
+1598,Cajamarca,Sierra Norte,3,3,6,2,0,2,0,0,1,0,2,0,1,1111
+944,Cajamarca,Sierra Norte,1,2,3,2,0,2,0,0,2,0,5,0,4,1104
+2787,Cajamarca,Sierra Norte,1,1,1,2,0,2,0,0,1,0,6,1,6,1113
+3182,Cajamarca,Sierra Norte,4,4,3,2,0,2,0,0,3,0,5,1,6,1104
+1637,Cajamarca,Sierra Norte,1,1,4,1,1,1,1,0,4,0,2,0,2,1110
+628,Cajamarca,Sierra Norte,4,2,5,2,0,1,1,0,2,0,2,0,2,1102
+2134,Lima,Lima Metropolitana,3,2,7,2,0,2,0,1,3,0,4,1,6,1103
+729,Lima,Lima Metropolitana,4,7,1,2,0,2,0,0,2,0,4,0,5,1108
+859,Lima,Lima Metropolitana,2,1,4,1,1,1,1,0,3,1,1,0,6,1115
+8821,Lima,Lima Metropolitana,3,5,4,2,0,1,1,0,4,1,6,1,6,1111
+4582,Lima,Lima Metropolitana,1,1,3,2,0,1,1,0,2,0,5,1,6,1102
+9589,Lima,Lima Metropolitana,3,1,1,2,0,2,0,0,4,0,1,0,4,
+327,Lima,Lima Metropolitana,2,1,2,2,0,2,0,0,2,0,4,1,5,1113
+3352,Lima,Lima Metropolitana,2,3,4,1,1,2,0,1,3,0,1,1,4,1107
+708,Lima,Lima Metropolitana,2,2,2,1,1,1,1,0,1,0,1,1,4,1107
+2791,Lima,Lima Metropolitana,3,4,4,1,1,2,0,0,3,0,3,0,4,1108
+6887,Lima,Lima Metropolitana,4,1,4,1,1,2,0,1,2,1,1,0,5,1112
+720,Lima,Lima Metropolitana,1,3,3,2,0,2,0,0,2,0,2,1,5,1115
+5263,Lima,Lima Metropolitana,2,6,6,1,1,2,0,1,4,0,4,1,4,1113
+7501,Lima,Lima Metropolitana,3,2,7,1,1,2,0,1,2,0,6,0,4,1105
+4378,Lima,Lima Metropolitana,1,4,7,2,0,1,1,0,2,0,1,0,4,1102
+882,Lima,Lima Metropolitana,2,5,3,1,1,1,1,0,3,0,4,0,4,1105
+6315,La Libertad,Costa Norte,4,1,1,2,0,2,0,0,3,0,6,1,6,1115
+9032,La Libertad,Costa Norte,2,3,2,2,0,2,0,0,2,1,6,0,6,1114
+7829,La Libertad,Costa Norte,5,7,1,1,1,1,1,0,4,0,7,1,1,1104
+5682,La Libertad,Costa Norte,1,1,6,1,1,2,0,0,4,1,3,1,4,1108
+6877,La Libertad,Costa Norte,3,4,5,1,1,1,1,0,2,0,7,1,4,
+8055,La Libertad,Sierra Norte,4,2,6,2,0,1,1,0,3,1,1,1,6,1102
+835,La Libertad,Costa Norte,3,7,3,1,1,2,0,0,4,0,,1,6,
+1389,La Libertad,Sierra Norte,3,7,3,1,1,1,1,0,3,0,1,1,3,1101
+7020,La Libertad,Costa Norte,3,4,3,1,1,2,0,0,3,1,7,1,4,
+8484,La Libertad,Costa Norte,1,2,7,2,0,1,1,0,3,1,1,0,5,1104
+252,La Libertad,Sierra Norte,3,1,5,1,1,1,1,0,4,0,3,1,1,1102
+9559,La Libertad,Sierra Norte,2,5,5,1,1,1,1,0,4,0,5,0,2,1101
+1552,La Libertad,Sierra Norte,2,1,4,2,0,2,0,0,2,0,1,0,1,1101
+7963,La Libertad,Sierra Norte,3,1,1,1,1,1,1,0,1,0,6,1,4,1101
+8002,La Libertad,Sierra Norte,2,4,4,2,0,1,1,0,1,0,4,0,4,1105
+9096,La Libertad,Costa Norte,2,4,3,2,0,2,0,0,3,0,6,0,5,1105
+7974,La Libertad,Sierra Norte,3,7,1,1,1,1,1,0,3,1,6,1,2,1101
+7815,La Libertad,Costa Norte,3,2,1,2,0,2,0,0,2,0,5,0,4,1106
+9367,La Libertad,Sierra Norte,4,5,2,1,1,1,1,0,3,0,2,0,4,1104
+8429,La Libertad,Sierra Norte,2,6,3,1,1,2,0,1,3,0,6,0,1,
+9957,La Libertad,Costa Norte,2,1,1,1,1,2,0,1,1,0,6,0,4,1110
+7488,La Libertad,Sierra Norte,3,5,2,1,1,2,0,0,3,0,5,1,2,1102
+6306,Puno,Sierra Sur,1,1,7,2,0,2,0,0,2,1,1,0,4,1104
+5667,Puno,Sierra Sur,3,1,7,2,0,2,0,0,3,0,1,1,3,1103
+8433,Puno,Sierra Sur,5,4,5,1,1,2,0,0,3,0,1,0,4,1105
+9031,Puno,Sierra Sur,2,4,4,2,0,2,0,0,2,1,1,0,4,1108
+9804,Puno,Sierra Sur,3,3,7,2,0,2,0,0,3,0,1,1,3,1105
+2879,Puno,Sierra Sur,3,1,7,2,0,2,0,0,2,0,1,1,3,1105
+8784,Puno,Sierra Sur,1,1,6,1,1,2,0,0,2,1,1,0,4,1105
+4560,Puno,Sierra Sur,3,4,4,2,0,2,0,0,3,1,1,0,3,1103
+7910,Puno,Sierra Sur,3,3,6,1,1,1,1,0,3,0,6,1,4,1105
+1037,Puno,Sierra Sur,2,1,7,2,0,1,1,0,3,0,1,1,2,1101
+5046,Puno,Sierra Sur,3,5,5,2,0,1,1,0,3,0,2,0,4,1109
+338,Puno,Sierra Sur,3,7,7,1,1,1,1,0,2,0,4,1,4,1101
+5965,Puno,Sierra Sur,2,7,2,2,0,2,0,0,3,0,6,0,5,1107
+2213,Puno,Sierra Sur,3,3,4,2,0,1,1,0,3,0,2,0,3,1106
+4399,Apurímac,Sierra Sur,3,3,4,2,0,2,0,0,2,0,2,0,1,1103
+6674,Apurímac,Sierra Sur,4,4,1,2,0,1,1,0,3,0,4,1,6,1103
+51,Apurímac,Sierra Sur,2,6,3,2,0,2,0,0,4,1,1,0,6,1115
+8305,Apurímac,Sierra Sur,2,3,3,2,0,2,0,0,2,0,1,1,6,1111
+5082,Apurímac,Sierra Sur,2,1,6,2,0,2,0,0,3,0,3,0,2,1106
+7067,Apurímac,Sierra Sur,1,6,3,1,1,1,1,0,2,0,4,0,5,1105
+5969,Apurímac,Sierra Sur,1,2,1,2,0,2,0,0,2,0,3,1,6,1108
+6050,Apurímac,Sierra Sur,2,4,1,2,0,2,0,0,1,0,5,0,5,1106
+8126,Apurímac,Sierra Sur,3,2,5,1,1,1,1,0,4,0,2,1,6,1108
+1579,Apurímac,Sierra Sur,2,4,5,2,0,1,1,0,1,0,1,1,1,1103
+2203,Apurímac,Sierra Sur,2,1,2,2,0,2,0,0,2,0,3,0,6,1111
+503,Ucayali,Selva,2,6,3,2,0,2,0,1,3,1,4,1,6,1113
+3436,Ucayali,Selva,1,5,3,1,1,1,1,0,3,1,1,0,6,1112
+1387,Ucayali,Selva,3,7,4,1,1,1,1,0,3,0,7,0,2,1105
+7629,Ucayali,Selva,3,4,4,1,1,1,1,0,3,0,3,0,6,1109
+7854,Ucayali,Selva,4,7,4,1,1,1,1,0,4,0,3,1,3,1102
+4362,Ucayali,Selva,3,5,2,1,1,1,1,0,4,0,5,0,4,1101
+1761,Ucayali,Selva,3,4,3,1,1,2,0,0,3,0,3,1,4,1103
+6298,Ucayali,Selva,2,7,2,1,1,2,0,0,4,1,6,0,4,1104
+4426,Ucayali,Selva,3,7,5,1,1,2,0,0,4,1,3,0,5,1106
+5589,Ucayali,Selva,3,7,7,1,1,2,0,0,3,0,7,1,2,1103
+9438,Ucayali,Selva,3,1,1,1,1,2,0,0,2,0,3,0,5,1113
+7291,Ucayali,Selva,2,4,6,2,0,2,0,0,1,0,1,1,2,1101
+2162,Ucayali,Selva,1,4,4,1,1,2,0,0,4,0,7,1,3,1106
+924,Ayacucho,Sierra Sur,4,4,1,2,0,2,0,0,2,1,5,0,6,1115
+9115,Ayacucho,Sierra Sur,1,3,2,1,1,2,0,0,4,1,1,1,4,1103
+5706,Ayacucho,Sierra Sur,2,4,4,2,0,2,0,0,3,1,2,1,4,1103
+778,Ayacucho,Sierra Sur,1,2,3,2,0,2,0,0,3,0,1,1,5,1112
+8664,Ayacucho,Sierra Sur,1,1,3,1,1,2,0,0,2,0,1,0,6,1107
+3779,Ayacucho,Sierra Sur,3,1,3,1,1,1,1,0,3,1,4,0,6,1113
+9229,Ayacucho,Sierra Sur,5,1,1,2,0,2,0,0,2,0,5,1,6,1106
+2841,Ayacucho,Sierra Sur,4,3,1,2,0,1,1,0,2,0,1,0,5,
+681,Ayacucho,Sierra Sur,2,3,2,1,1,2,0,0,2,1,3,1,6,1112
+1400,Ayacucho,Sierra Sur,2,1,3,2,0,2,0,0,3,0,1,0,6,1111
+6465,Áncash,Sierra Norte,3,4,4,1,1,2,0,0,2,0,3,0,4,1108
+1558,Áncash,Sierra Norte,1,1,3,2,0,2,0,0,1,0,7,1,2,1101
+6347,Áncash,Sierra Norte,2,7,5,1,1,1,1,0,3,0,4,1,1,1104
+5859,Áncash,Sierra Norte,3,4,5,2,0,2,0,0,3,0,3,1,6,1108
+5450,Áncash,Sierra Norte,4,7,2,1,1,1,1,0,2,1,1,0,6,1111
+8223,Áncash,Sierra Norte,5,6,4,1,1,2,0,0,2,1,2,0,2,1104
+6462,Áncash,Sierra Norte,3,4,3,2,0,2,0,1,2,0,4,0,4,1105
+1402,Áncash,Sierra Norte,1,2,3,1,1,2,0,0,2,0,5,1,2,1109
+1324,Áncash,Sierra Norte,3,4,3,1,1,2,0,0,3,0,1,0,6,1111
+7094,Áncash,Sierra Norte,3,2,2,1,1,2,0,0,3,0,6,0,6,1114
+1525,Áncash,Sierra Norte,3,4,3,2,0,2,0,0,1,0,2,0,6,1103
+4499,Áncash,Sierra Norte,2,3,5,2,0,2,0,0,4,1,1,0,6,1101
+850,Áncash,Sierra Norte,4,3,5,2,0,2,0,0,1,0,3,1,3,1104
+7395,Áncash,Sierra Norte,3,1,1,2,0,2,0,0,2,0,1,1,6,1106
+5860,Áncash,Sierra Norte,3,5,3,1,1,2,0,0,2,0,5,1,4,1102
+853,Áncash,Sierra Norte,3,1,4,1,1,2,0,0,3,0,5,0,6,1112
+260,Áncash,Sierra Norte,3,2,2,1,1,2,0,0,3,1,3,0,5,1107
+5551,Áncash,Sierra Norte,5,4,3,1,1,2,0,0,3,0,2,0,1,1102
+3489,Áncash,Sierra Norte,3,6,3,1,1,1,1,0,3,1,6,1,4,1104
+2884,Áncash,Sierra Norte,3,7,1,2,0,2,0,0,4,0,4,1,2,1105
+8003,Áncash,Sierra Norte,3,5,2,1,1,2,0,0,3,0,6,1,2,1101
+8215,Áncash,Sierra Norte,5,1,4,1,1,1,1,0,1,0,3,1,3,1107
+7111,Áncash,Sierra Norte,4,5,4,2,0,2,0,0,2,0,3,0,4,1112
+3574,Arequipa,Costa Sur,2,1,1,1,1,1,1,0,2,0,1,1,6,1103
+5985,Arequipa,Costa Sur,2,4,3,1,1,1,1,0,3,0,4,1,6,1105
+2521,Arequipa,Costa Sur,5,5,4,2,0,1,1,0,4,1,1,0,4,1105
+5685,Arequipa,Costa Sur,2,1,7,2,0,2,0,0,3,0,1,0,6,1110
+6845,Arequipa,Costa Sur,2,1,1,2,0,2,0,0,4,0,7,1,3,1105
+2937,Arequipa,Costa Sur,3,1,3,2,0,2,0,0,4,1,3,0,6,
+6201,Arequipa,Costa Sur,3,3,4,1,1,1,1,0,3,1,3,0,6,1105
+1258,Arequipa,Costa Sur,2,2,1,2,0,2,0,0,2,0,2,0,6,1111
+9900,Arequipa,Costa Sur,2,7,1,1,1,1,1,0,4,1,1,1,4,1106
+9972,Arequipa,Costa Sur,2,2,5,2,0,2,0,0,3,1,3,1,5,1106
+8803,Arequipa,Costa Sur,1,5,5,1,1,1,1,0,2,0,5,0,4,1104
+5628,Arequipa,Costa Sur,3,3,1,1,1,1,1,0,3,1,1,1,6,1109
+1216,Lima,Lima Metropolitana,4,7,4,2,0,1,1,1,4,0,1,0,4,1106
+8703,Lima,Lima Metropolitana,3,4,4,2,0,2,0,0,2,0,4,0,4,1110
+2139,Lima,Lima Metropolitana,2,4,4,2,0,2,0,0,4,0,1,0,4,1106
+6226,Lima,Lima Metropolitana,4,3,5,1,1,2,0,0,4,1,4,0,1,
+6975,Lima,Lima Metropolitana,3,3,7,1,1,1,1,0,4,0,3,1,2,
+7894,Lima,Lima Metropolitana,1,1,7,1,1,1,1,0,4,0,2,0,4,1103
+735,Lima,Lima Metropolitana,3,4,4,2,0,2,0,1,4,1,5,1,4,1106
+5903,Lima,Lima Metropolitana,3,5,2,1,1,2,0,0,3,0,7,0,4,1108
+7405,Lima,Lima Metropolitana,3,4,1,2,0,2,0,0,4,0,2,1,4,1108
+8288,Lima,Lima Metropolitana,3,3,3,2,0,2,0,0,3,1,3,1,5,1108
+5522,Lima,Lima Metropolitana,3,5,1,2,0,2,0,0,2,0,6,1,3,1103
+5137,Lambayeque,Costa Norte,1,3,4,1,1,2,0,1,4,0,5,0,4,1108
+5565,Lambayeque,Costa Norte,2,4,3,2,0,1,1,0,3,0,1,1,5,1112
+6944,Lambayeque,Costa Norte,4,5,3,2,0,2,0,0,2,1,5,0,3,1105
+6660,Lambayeque,Costa Norte,1,3,6,2,0,2,0,0,4,0,3,0,1,1104
+5315,Lambayeque,Costa Norte,2,5,4,1,1,1,1,0,3,1,4,0,4,1107
+7037,Lambayeque,Costa Norte,2,1,2,2,0,2,0,0,3,0,4,1,5,1104
+8586,Lambayeque,Costa Norte,4,5,2,2,0,2,0,0,3,0,5,1,4,1102
+7344,Lambayeque,Costa Norte,3,5,2,2,0,1,1,0,3,1,4,0,6,1106
+5865,Lambayeque,Costa Norte,3,3,4,2,0,2,0,0,3,0,7,1,6,1106
+8351,Lambayeque,Costa Norte,4,4,4,2,0,2,0,0,3,0,3,0,4,1104
+3921,Lambayeque,Costa Norte,1,5,7,2,0,1,1,0,4,1,1,0,4,1107
+6248,Lambayeque,Costa Norte,3,5,3,2,0,2,0,0,3,0,4,,2,1103
+5431,Lambayeque,Costa Norte,3,3,3,1,1,1,1,0,2,1,3,0,4,1107
+7841,Lambayeque,Costa Norte,2,5,4,1,1,1,1,0,4,1,4,1,4,1101
+2320,Lambayeque,Costa Norte,1,4,4,2,0,1,1,0,4,1,3,1,4,1105
+8434,Lambayeque,Costa Norte,1,7,5,2,0,1,1,0,4,0,5,,3,1115
+7034,Lima,Lima Metropolitana,3,1,3,2,0,2,0,0,2,0,5,0,4,1112
+6443,Lima,Lima Metropolitana,5,4,2,1,1,1,1,1,3,1,2,1,6,1109
+2949,Lima,Lima Metropolitana,3,4,5,1,1,2,0,0,3,0,4,1,1,1104
+4877,Lima,Lima Metropolitana,2,6,2,1,1,2,0,1,4,0,4,1,3,1105
+7499,Lima,Lima Metropolitana,3,3,4,1,1,1,1,0,3,1,2,1,4,1110
+6457,Lima,Lima Metropolitana,2,4,2,1,1,2,0,1,4,0,5,0,4,1108
+3115,Lima,Lima Metropolitana,2,4,3,1,1,1,1,1,4,1,5,0,6,1111
+2529,Lima,Lima Metropolitana,3,3,2,1,1,1,1,0,4,1,4,0,5,1108
+1406,Lima,Lima Metropolitana,2,4,3,2,0,1,1,1,2,0,3,0,6,1113
+8948,Lima,Lima Metropolitana,1,7,4,1,1,2,0,0,4,1,1,0,3,1106
+4200,Lima,Lima Metropolitana,4,1,3,1,1,1,1,0,3,1,1,0,6,1108
+5858,Lima,Lima Metropolitana,2,4,2,1,1,2,0,1,3,0,5,1,5,1107
+4809,Cajamarca,Sierra Norte,3,1,7,2,0,2,0,0,3,0,2,1,4,1108
+393,Cajamarca,Sierra Norte,3,3,3,1,1,1,1,0,2,0,2,1,6,1111
+1797,Cajamarca,Sierra Norte,3,1,4,2,0,2,0,0,3,1,1,0,6,1109
+9420,Cajamarca,Sierra Norte,3,5,3,2,0,2,0,0,4,0,6,1,5,1104
+5106,Cajamarca,Sierra Norte,3,3,1,1,1,1,1,0,3,0,6,1,5,1113
+7706,Cajamarca,Sierra Norte,2,1,1,2,0,2,0,0,3,0,2,0,6,1111
+1058,Cajamarca,Sierra Norte,2,6,2,2,0,2,0,0,3,0,2,0,4,1112
+1372,Cajamarca,Sierra Norte,2,4,2,2,0,2,0,0,3,1,1,0,4,1105
+9862,Cajamarca,Sierra Norte,1,3,5,2,0,2,0,0,4,1,1,1,4,1104
+4968,Cajamarca,Sierra Norte,2,1,4,1,1,1,1,0,3,0,6,0,5,1109
+7771,Cajamarca,Sierra Norte,3,2,1,1,1,2,0,0,3,0,4,0,4,1107
+8081,Cajamarca,Sierra Norte,2,2,1,2,0,2,0,0,3,0,5,0,6,1109
+6309,Cajamarca,Sierra Norte,2,4,3,2,0,1,1,0,2,0,4,0,5,1112
+8882,Cajamarca,Sierra Norte,3,4,2,2,0,2,0,0,2,0,2,1,6,1106
+3061,Cajamarca,Sierra Norte,3,4,4,1,1,2,0,0,2,0,4,0,5,1110
+6587,Cajamarca,Sierra Norte,4,3,2,1,1,1,1,0,2,0,5,1,5,1113
+6092,Cajamarca,Sierra Norte,3,4,3,2,0,2,0,0,3,1,5,1,5,1109
+8604,Cajamarca,Sierra Norte,5,4,5,1,1,2,0,0,2,1,4,0,5,1114
+6658,Cajamarca,Sierra Norte,2,5,5,2,0,2,0,0,1,0,3,1,0,1105
+2046,Cajamarca,Sierra Norte,2,2,5,1,1,2,0,1,4,0,4,0,4,1106
+9478,Cajamarca,Sierra Norte,3,3,2,2,0,2,0,0,4,0,4,1,6,1106
+4104,Cajamarca,Sierra Norte,3,4,1,1,1,1,1,0,3,1,5,1,6,1111
+8166,Cajamarca,Sierra Norte,1,2,5,1,1,1,1,0,2,0,3,0,4,1103
+3401,Cajamarca,Sierra Norte,2,5,3,1,1,2,0,0,3,0,5,1,4,1110
+4060,Cajamarca,Sierra Norte,3,3,2,1,1,2,0,0,1,0,3,1,4,1107
+4400,Cajamarca,Sierra Norte,4,4,3,1,1,1,1,0,1,0,5,0,6,1113
+4613,Lima,Lima Metropolitana,2,3,5,2,0,2,0,0,3,0,4,0,6,1115
+9784,Lima,Lima Metropolitana,2,5,4,2,0,2,0,1,3,1,4,1,6,1109
+8755,Lima,Lima Metropolitana,4,4,4,2,0,2,0,0,3,0,3,1,4,1106
+4492,Lima,Lima Metropolitana,2,2,7,2,0,2,0,0,3,1,1,0,4,1107
+2080,Lima,Lima Metropolitana,2,3,2,1,1,2,0,0,4,1,1,0,3,1114
+933,Lima,Lima Metropolitana,3,4,4,2,0,1,1,0,4,1,2,1,5,1110
+4463,Arequipa,Costa Sur,1,2,7,1,1,1,1,0,2,0,5,0,5,1105
+3900,Arequipa,Costa Sur,1,6,5,1,1,2,0,0,3,0,7,1,1,1103
+6804,Arequipa,Costa Sur,1,1,6,1,1,1,1,0,3,1,2,1,1,1102
+1524,Arequipa,Costa Sur,4,3,5,1,1,2,0,0,2,0,4,1,5,1102
+331,Arequipa,Costa Sur,1,3,7,2,0,1,1,0,4,1,1,0,6,1112
+1513,Arequipa,Costa Sur,3,4,2,1,1,1,1,0,3,0,2,0,6,1114
+8851,Arequipa,Costa Sur,3,4,1,2,0,1,1,0,2,0,4,1,5,1104
+7727,Arequipa,Costa Sur,2,1,7,2,0,1,1,0,2,0,1,1,6,1106
+9073,Arequipa,Costa Sur,2,3,3,2,0,2,0,0,3,0,6,0,3,1107
+5516,Arequipa,Costa Sur,2,1,7,2,0,2,0,0,3,1,2,0,4,1104
+942,Arequipa,Costa Sur,2,3,5,1,1,1,1,0,3,0,4,0,5,1106
+4755,Piura,Costa Norte,2,1,1,2,0,2,0,0,2,0,4,1,6,1111
+1432,Piura,Costa Norte,3,5,3,2,0,2,0,0,2,0,6,0,4,1105
+1370,Piura,Costa Norte,3,4,1,2,0,2,0,0,2,1,3,0,6,1114
+256,Piura,Costa Norte,3,5,5,2,0,2,0,0,3,1,4,0,6,1106
+9943,Piura,Costa Norte,3,5,3,1,1,2,0,0,1,0,5,0,4,
+8273,Piura,Costa Norte,3,6,2,1,1,1,1,1,3,1,7,0,4,1107
+7237,Piura,Costa Norte,1,2,3,1,1,2,0,0,4,1,2,1,4,1111
+6321,Piura,Costa Norte,3,3,4,2,0,2,0,0,4,0,3,1,3,1103
+4512,Piura,Costa Norte,1,1,3,2,0,2,0,0,4,0,3,0,5,1103
+4888,Piura,Costa Norte,3,5,4,2,0,1,1,0,1,0,7,1,4,1104
+2891,Piura,Costa Norte,2,3,3,1,1,1,1,0,4,1,4,1,5,1104
+2663,Piura,Costa Norte,3,3,4,1,1,2,0,0,4,0,4,1,3,
+3986,Amazonas,Selva,2,3,5,2,0,1,1,0,2,0,4,1,4,
+4610,Amazonas,Selva,3,5,4,1,1,2,0,0,2,0,7,0,2,1102
+1906,Amazonas,Selva,2,2,5,2,0,2,0,0,3,0,5,1,1,1103
+9118,Amazonas,Selva,1,5,7,2,0,2,0,0,1,1,6,0,3,1104
+8916,Amazonas,Selva,3,4,3,1,1,2,0,0,2,0,2,1,2,1103
+6386,Amazonas,Selva,4,3,3,2,0,2,0,0,1,0,2,0,4,1105
+6990,Lima,Lima Metropolitana,4,5,3,1,1,2,0,0,3,0,4,1,6,1112
+1745,Lima,Lima Metropolitana,2,1,7,2,0,2,0,0,3,0,1,0,6,1114
+5564,Lima,Lima Metropolitana,1,4,4,1,1,1,1,0,2,0,4,1,4,1103
+2804,Lima,Lima Metropolitana,3,4,4,1,1,2,0,0,2,1,6,1,6,1115
+5201,Lima,Lima Metropolitana,5,4,2,2,0,2,0,0,3,0,2,0,4,1110
+5810,Lima,Lima Metropolitana,3,4,1,1,1,1,1,0,4,1,2,0,4,1104
+9697,Lima,Lima Metropolitana,4,2,4,1,1,1,1,1,3,0,5,1,5,1111
+2599,Lima,Lima Metropolitana,1,5,3,1,1,2,0,0,4,1,5,0,6,1106
+819,Lima,Lima Metropolitana,3,6,4,2,0,1,1,1,1,0,4,,2,1110
+1665,Lima,Lima Metropolitana,2,3,4,1,1,1,1,0,4,1,3,0,4,1107
+1464,Lima,Lima Metropolitana,3,1,1,2,0,2,0,0,2,0,4,0,5,1110
+988,Lima,Lima Metropolitana,3,4,3,2,0,2,0,0,3,0,5,1,6,1104
+4883,Junín,Selva,4,4,5,1,1,2,0,0,2,0,7,0,6,1108
+9587,Junín,Selva,4,3,4,1,1,1,1,0,1,0,4,0,4,1101
+1174,Junín,Selva,2,2,4,1,1,1,1,0,2,0,4,0,4,1104
+3060,Junín,Selva,4,1,4,2,0,1,1,0,2,0,3,0,5,1105
+5229,Junín,Selva,4,4,2,1,1,2,0,0,2,1,6,1,4,1107
+122,Junín,Selva,3,2,2,1,1,1,1,0,2,0,5,0,6,1113
+340,Junín,Selva,5,5,2,1,1,2,0,0,3,0,2,1,4,1106
+2968,Junín,Selva,3,2,5,1,1,1,1,0,3,0,2,1,6,1108
+6573,Junín,Selva,5,7,3,1,1,1,1,0,2,0,5,1,6,1110
+8682,Junín,Selva,3,4,3,1,1,1,1,0,1,0,4,1,1,1103
+9086,Junín,Selva,2,1,7,1,1,1,1,0,4,0,1,1,2,1102
+7392,Junín,Selva,2,4,5,2,0,2,0,0,2,0,3,0,5,1105
+2499,Áncash,Costa Norte,2,5,3,1,1,2,0,0,2,0,6,1,6,1113
+5702,Áncash,Costa Norte,2,2,5,1,1,1,1,0,2,1,4,1,5,1103
+8031,Áncash,Costa Norte,3,3,2,1,1,1,1,0,4,0,4,1,3,
+6494,Áncash,Costa Norte,4,4,4,2,0,2,0,0,2,1,5,1,5,1107
+4622,Áncash,Costa Norte,2,4,4,1,1,2,0,0,4,0,6,0,2,
+3701,Áncash,Costa Norte,2,1,4,2,0,2,0,0,2,0,3,0,5,1104
+4243,Áncash,Costa Norte,2,6,3,2,0,2,0,0,2,0,6,0,5,1106
+6604,La Libertad,Costa Norte,1,3,5,2,0,2,0,0,4,0,2,1,3,1101
+1232,La Libertad,Costa Norte,4,3,3,1,1,1,1,0,4,0,4,0,6,1107
+539,La Libertad,Costa Norte,3,3,5,1,1,2,0,1,2,0,4,0,5,1107
+4216,Lambayeque,Costa Norte,2,4,4,1,1,1,1,1,3,0,3,0,4,1112
+1636,Lambayeque,Costa Norte,1,1,3,2,0,2,0,0,3,0,4,1,4,1106
+8621,La Libertad,Costa Norte,3,3,3,1,1,1,1,0,3,0,5,0,5,1107
+2852,La Libertad,Costa Norte,2,2,6,1,1,2,0,0,4,1,1,1,3,1104
+494,La Libertad,Costa Norte,3,4,4,1,1,1,1,0,4,0,3,1,6,1108
+135,Lambayeque,Costa Norte,1,1,6,2,0,2,0,0,4,0,1,0,4,1101
+7859,La Libertad,Costa Norte,2,7,4,2,0,1,1,0,2,0,2,1,4,
+6903,La Libertad,Costa Norte,2,5,7,1,1,1,1,0,3,0,1,0,6,1102
+6134,La Libertad,Costa Norte,3,3,4,1,1,2,0,0,2,0,3,1,4,1102
+7756,La Libertad,Costa Norte,2,2,1,1,1,1,1,0,4,0,3,0,6,1105
+9392,La Libertad,Costa Norte,4,4,1,1,1,1,1,0,3,0,4,1,6,1110
+6588,Lambayeque,Costa Norte,1,4,1,1,1,1,1,0,2,0,1,0,4,1106
+7964,Lambayeque,Costa Norte,4,4,5,1,1,2,0,0,2,0,4,1,4,1105
+8854,Lambayeque,Costa Norte,3,4,4,1,1,1,1,0,3,0,3,1,5,1110
+5999,La Libertad,Costa Norte,3,3,6,2,0,2,0,0,2,0,4,0,5,1109
+9042,Piura,Sierra Norte,4,5,3,1,1,2,0,0,2,0,3,0,4,1111
+8149,Piura,Costa Norte,1,7,4,1,1,2,0,0,4,0,4,1,4,1101
+7485,Piura,Sierra Norte,2,2,6,1,1,2,0,0,4,1,2,0,6,
+4631,Piura,Costa Norte,1,4,1,2,0,2,0,0,3,0,1,1,3,1106
+7018,Piura,Sierra Norte,4,4,1,2,0,2,0,1,3,0,5,1,6,1111
+3895,Piura,Sierra Norte,5,3,1,2,0,1,1,0,4,0,6,0,4,1105
+1840,Piura,Costa Norte,2,2,3,2,0,2,0,0,4,0,2,0,4,1112
+4486,Piura,Sierra Norte,2,3,3,2,0,2,0,0,3,0,4,1,6,1113
+7154,Piura,Sierra Norte,3,4,4,1,1,2,0,0,3,0,5,1,5,1114
+6057,Piura,Costa Norte,5,5,4,2,0,2,0,0,1,0,1,0,2,
+3904,Piura,Costa Norte,2,1,4,1,1,2,0,0,4,0,5,0,6,1109
+7813,Piura,Costa Norte,2,3,7,2,0,2,0,0,2,0,3,1,3,1102
+1532,Junín,Sierra Centro,2,3,1,2,0,1,1,0,2,0,7,0,6,1113
+5002,Junín,Sierra Centro,3,4,1,2,0,2,0,1,3,0,3,1,6,1104
+5265,Junín,Sierra Centro,3,4,2,1,1,1,1,0,4,0,3,1,5,1103
+6762,Junín,Sierra Centro,3,4,5,1,1,1,1,0,3,1,4,0,6,1113
+6613,Junín,Sierra Centro,1,5,2,2,0,1,1,0,4,0,2,0,5,1104
+656,Junín,Sierra Centro,4,6,4,1,1,1,1,0,3,0,2,1,4,1104
+2478,Junín,Sierra Centro,3,4,5,1,1,1,1,0,2,0,3,1,4,1106
+5553,Junín,Sierra Centro,3,3,3,2,0,1,1,0,2,0,5,0,5,1109
+781,Junín,Sierra Centro,3,1,5,1,1,1,1,0,4,1,6,0,6,1109
+3673,Junín,Sierra Centro,5,6,6,1,1,1,1,0,4,0,3,1,3,1103
+4989,Junín,Sierra Centro,3,3,5,1,1,1,1,0,2,0,7,1,3,1105
+2616,Junín,Sierra Centro,3,4,1,2,0,2,0,0,2,0,5,0,6,1112
+9652,Huánuco,Sierra Centro,2,4,2,2,0,2,0,0,2,1,1,0,6,1109
+2283,Huánuco,Sierra Centro,2,3,5,1,1,1,1,0,,0,5,0,3,1101
+2313,Huánuco,Sierra Centro,1,7,1,2,0,2,0,0,3,0,3,0,6,1113
+9148,Huánuco,Sierra Centro,4,6,3,1,1,1,1,0,2,1,4,0,4,1107
+6333,Huánuco,Sierra Centro,1,1,6,2,0,2,0,0,2,0,5,1,4,1102
+7302,Huánuco,Sierra Centro,2,4,4,1,1,2,0,0,3,1,3,0,6,1102
+5722,Huánuco,Sierra Centro,5,1,1,2,0,2,0,0,2,0,2,1,3,1101
+7221,Huánuco,Sierra Centro,2,4,5,2,0,2,0,0,2,0,4,1,3,1101
+377,Huánuco,Sierra Centro,2,4,5,2,0,2,0,0,3,0,5,1,4,1104
+3100,Huánuco,Sierra Centro,4,1,1,2,0,2,0,1,2,0,4,0,6,1112
+6947,Huánuco,Sierra Centro,2,3,4,1,1,1,1,0,2,0,1,0,4,1105
+3750,Huánuco,Sierra Centro,3,1,4,1,1,1,1,0,2,1,1,0,5,1111
+112,Huánuco,Sierra Centro,3,3,3,1,1,1,1,0,3,1,1,1,6,1104
+4928,Piura,Costa Norte,1,1,7,2,0,2,0,0,4,1,1,1,2,1103
+3,Piura,Costa Norte,2,3,5,1,1,1,1,0,3,0,3,0,4,1107
+1731,Piura,Costa Norte,2,3,2,1,1,1,1,0,4,0,3,1,4,1104
+7482,Piura,Costa Norte,3,6,4,2,0,2,0,0,2,0,6,0,4,1103
+8221,Piura,Costa Norte,3,3,3,1,1,2,0,0,2,0,3,0,6,1103
+2367,Piura,Costa Norte,3,2,2,2,0,2,0,0,3,0,2,0,5,1109
+3409,Piura,Costa Norte,2,7,1,2,0,2,0,0,1,0,1,0,6,1102
+7699,Piura,Costa Norte,3,3,2,1,1,2,0,0,3,0,2,1,4,1101
+6750,Piura,Costa Norte,1,1,7,2,0,1,1,0,4,1,1,1,6,1104
+6946,Piura,Costa Norte,2,4,3,2,0,2,0,1,4,1,4,1,6,1109
+6880,Piura,Costa Norte,3,2,1,1,1,2,0,0,1,1,4,1,5,1112
+7809,Piura,Costa Norte,3,4,4,2,0,2,0,1,4,0,3,0,6,1101
+2459,Lambayeque,Costa Norte,5,4,3,2,0,2,0,0,4,0,5,1,4,1105
+3452,Lambayeque,Costa Norte,3,1,3,2,0,1,1,0,4,0,5,1,2,1101
+8037,Lambayeque,Costa Norte,4,4,1,1,1,2,0,0,3,1,3,1,4,1108
+7743,Lambayeque,Costa Norte,4,3,4,1,1,1,1,0,4,0,6,1,6,1103
+5778,Lambayeque,Costa Norte,3,7,3,1,1,1,1,0,4,0,4,0,3,
+1379,Lambayeque,Costa Norte,4,4,1,1,1,2,0,0,1,0,2,0,4,1107
+7547,Lambayeque,Costa Norte,2,4,5,2,0,2,0,0,3,0,3,0,2,1103
+8033,Lambayeque,Costa Norte,3,1,1,2,0,2,0,0,4,1,3,0,5,1106
+1615,Lambayeque,Costa Norte,4,3,6,2,0,2,0,0,3,0,2,0,3,1103
+9828,Lambayeque,Costa Norte,2,4,4,2,0,2,0,0,3,0,2,1,4,1104
+9928,Lambayeque,Costa Norte,2,1,1,1,1,2,0,0,2,0,4,0,5,1108
+3268,Lima,Lima Metropolitana,1,4,6,1,1,1,1,0,4,0,3,0,6,1106
+8115,Lima,Lima Metropolitana,4,3,2,1,1,1,1,1,4,1,4,1,3,1103
+9878,Lima,Lima Metropolitana,3,5,3,2,0,2,0,0,3,0,6,0,6,1108
+7074,Lima,Lima Metropolitana,2,1,7,2,0,2,0,0,3,1,4,0,4,1106
+9458,Lima,Lima Metropolitana,1,1,7,1,1,1,1,0,2,1,1,0,4,1104
+8190,Lima,Lima Metropolitana,1,2,7,1,1,2,0,0,1,0,5,1,2,
+4076,Lima,Lima Metropolitana,3,4,1,1,1,1,1,1,4,1,6,1,3,
+6221,Lima,Lima Metropolitana,2,1,1,2,0,2,0,1,4,1,3,0,4,1109
+2205,Lima,Lima Metropolitana,4,6,2,2,0,2,0,0,4,0,7,0,3,
+7328,Lima,Lima Metropolitana,2,6,1,2,0,2,0,1,2,0,6,1,6,
+3327,Lima,Lima Metropolitana,3,5,4,2,0,2,0,0,4,0,5,1,6,1110
+7168,Lima,Lima Metropolitana,3,3,2,2,0,2,0,1,2,1,7,0,5,1111
+6502,Lima,Lima Metropolitana,2,4,2,2,0,2,0,0,2,0,3,1,5,1102
+502,Lima,Lima Metropolitana,3,4,4,1,1,2,0,0,2,0,4,1,4,1101
+6696,Lima,Lima Metropolitana,4,3,3,2,0,2,0,0,3,0,4,1,4,1101
+7560,Lima,Lima Metropolitana,1,6,2,1,1,2,0,0,3,0,4,1,6,1104
+960,Lima,Lima Metropolitana,3,3,5,2,0,2,0,0,2,0,5,0,5,1107
+9083,Lima,Lima Metropolitana,3,5,3,1,1,2,0,0,4,1,4,0,2,1106
+581,Lima,Lima Metropolitana,5,4,2,1,1,2,0,0,2,0,6,1,6,1106
+3430,La Libertad,Costa Norte,3,3,5,2,0,2,0,0,,0,1,0,4,1102
+7981,La Libertad,Costa Norte,3,2,4,2,0,2,0,0,3,1,3,1,6,1111
+2988,La Libertad,Costa Norte,1,5,3,1,1,1,1,0,4,1,4,0,4,1105
+2875,La Libertad,Costa Norte,1,3,3,2,0,2,0,1,4,0,1,0,4,1107
+296,La Libertad,Costa Norte,1,5,1,2,0,2,0,1,2,0,2,1,5,1103
+4429,La Libertad,Costa Norte,3,1,2,1,1,1,1,0,4,0,5,1,6,1106
+4863,La Libertad,Costa Norte,4,6,1,1,1,2,0,1,3,0,7,0,6,1110
+8929,La Libertad,Costa Norte,2,3,7,1,1,1,1,0,3,0,5,1,2,
+9860,La Libertad,Costa Norte,1,1,1,2,0,2,0,0,4,1,2,0,5,
+4925,La Libertad,Costa Norte,2,4,2,1,1,2,0,1,4,0,2,1,5,1107
+5227,La Libertad,Costa Norte,3,7,3,2,0,1,1,0,1,1,1,0,6,1115
+9863,Huánuco,Sierra Centro,5,1,2,2,0,1,1,0,1,0,1,,3,1105
+8905,Huánuco,Sierra Centro,2,4,1,2,0,2,0,0,3,0,3,0,5,1112
+5397,Huánuco,Sierra Centro,4,1,6,2,0,1,1,0,2,0,3,1,2,1101
+4348,Huánuco,Sierra Centro,2,2,2,2,0,2,0,0,2,0,4,0,6,1114
+3367,Huánuco,Sierra Centro,4,6,2,1,1,1,1,0,3,0,3,0,6,1104
+5580,Huánuco,Sierra Centro,3,1,4,1,1,2,0,0,2,1,4,0,4,1108
+3353,Huánuco,Sierra Centro,2,7,6,1,1,2,0,0,1,0,7,1,4,1101
+2428,Huánuco,Sierra Centro,5,2,1,1,1,2,0,0,3,0,3,1,5,1106
+2345,Huánuco,Sierra Centro,3,3,4,2,0,2,0,1,4,1,4,1,5,1105
+5247,Huánuco,Sierra Centro,3,3,3,2,0,2,0,0,3,0,3,1,6,1115
+9854,Huánuco,Sierra Centro,3,4,4,2,0,2,0,0,2,1,6,0,6,1115
+9427,Huánuco,Sierra Centro,2,2,5,1,1,1,1,0,1,0,2,1,5,1106
+8188,Cusco,Sierra Sur,3,5,3,2,0,2,0,0,2,1,6,0,5,1111
+4965,Cusco,Sierra Sur,4,3,5,2,0,2,0,0,1,0,2,1,6,1107
+3498,Cusco,Sierra Sur,2,4,2,2,0,2,0,0,2,0,2,1,6,
+1907,Cusco,Sierra Sur,2,5,2,2,0,2,0,0,2,0,1,1,6,1109
+4350,Cusco,Sierra Sur,2,1,3,1,1,2,0,0,4,0,3,1,4,1103
+4738,Cusco,Sierra Sur,2,4,2,2,0,2,0,0,3,0,1,0,6,1115
+980,Cusco,Sierra Sur,4,1,1,2,0,2,0,0,3,0,5,0,6,1112
+1666,Cusco,Sierra Sur,3,5,4,1,1,2,0,0,2,0,4,1,4,
+4268,Lima,Lima Metropolitana,1,4,3,1,1,1,1,0,3,0,4,1,5,1104
+6511,Lima,Lima Metropolitana,3,5,4,2,0,2,0,0,2,0,4,1,3,
+4450,Lima,Lima Metropolitana,2,6,5,1,1,1,1,1,2,1,1,0,5,
+5629,Lima,Lima Metropolitana,3,5,7,2,0,2,0,0,2,0,2,0,4,
+7238,Lima,Lima Metropolitana,2,5,4,1,1,2,0,1,3,0,5,1,4,
+5380,Lima,Lima Metropolitana,2,1,3,1,1,1,1,0,3,1,2,0,6,
+7728,Lima,Lima Metropolitana,4,4,4,1,1,2,0,1,2,0,4,0,4,
+5337,Lima,Lima Metropolitana,5,6,4,1,1,1,1,0,1,0,5,0,4,
+8065,Lima,Lima Metropolitana,4,1,1,1,1,2,0,0,3,0,5,0,6,1115
+2445,Lima,Lima Metropolitana,4,4,2,2,0,2,0,0,3,0,2,0,6,1110
+758,Lima,Lima Metropolitana,1,3,4,1,1,2,0,1,3,0,3,1,3,
+4173,Lima,Lima Metropolitana,2,4,3,1,1,2,0,1,3,0,3,1,4,
+3141,Lima,Lima Metropolitana,3,5,3,1,1,1,1,1,4,0,5,1,4,
+9469,Lima,Lima Metropolitana,3,5,3,1,1,2,0,1,4,1,6,1,4,1109
+2505,Lima,Lima Metropolitana,2,3,3,2,0,2,0,0,4,0,3,0,4,1108
+9250,Lima,Lima Metropolitana,2,3,5,1,1,1,1,0,3,0,2,0,4,
+6206,Lima,Lima Metropolitana,2,2,3,2,0,2,0,0,4,0,1,1,2,
+3739,Ucayali,Selva,2,2,5,2,0,2,0,0,4,1,6,1,5,1104
+3414,Ucayali,Selva,3,2,4,2,0,2,0,0,4,1,5,0,4,1106
+4652,Ucayali,Selva,4,6,1,1,1,2,0,0,2,0,3,0,4,1103
+2414,Ucayali,Selva,1,3,4,2,0,2,0,0,1,0,3,1,3,1103
+5449,Ucayali,Selva,5,3,4,2,0,2,0,0,3,0,2,1,4,1103
+3274,Ucayali,Selva,2,1,3,1,1,1,1,0,3,1,1,1,4,1101
+3480,Ucayali,Selva,3,2,5,2,0,2,0,0,3,0,5,1,4,1108
+8478,Ucayali,Selva,4,7,7,1,1,1,1,0,2,0,4,0,3,1103
+5369,Ucayali,Selva,4,3,5,1,1,1,1,0,3,0,7,1,4,1102
+9794,Ucayali,Selva,5,7,7,1,1,1,1,0,1,1,1,0,4,1101
+8505,Ucayali,Selva,2,3,3,1,1,2,0,0,3,1,5,0,4,1105
+8671,Ucayali,Selva,4,1,3,1,1,2,0,0,2,0,7,0,6,1105
+3293,Puno,Sierra Sur,4,1,6,1,1,1,1,0,2,1,1,0,6,
+8467,Puno,Sierra Sur,2,4,4,1,1,2,0,0,4,1,4,0,4,1101
+9947,Puno,Sierra Sur,2,3,5,2,0,2,0,0,2,0,7,0,5,1106
+8175,Puno,Sierra Sur,2,4,3,1,1,1,1,0,2,1,2,0,4,1111
+1358,Puno,Sierra Sur,4,7,7,1,1,2,0,0,3,0,1,1,1,1106
+7049,Puno,Sierra Sur,5,4,3,2,0,2,0,0,2,0,4,0,6,1111
+1962,Puno,Sierra Sur,3,5,3,1,1,1,1,0,3,1,3,0,4,1106
+2539,Puno,Sierra Sur,4,6,2,1,1,1,1,0,3,1,6,1,4,1103
+3777,Puno,Sierra Sur,1,1,1,2,0,2,0,0,4,1,1,0,5,1103
+3009,Puno,Sierra Sur,2,2,6,2,0,2,0,0,4,0,1,1,1,1104
+7867,Puno,Sierra Sur,2,7,1,1,1,1,1,0,1,0,7,1,4,1101
+8483,Puno,Sierra Sur,4,1,6,2,0,1,1,0,2,0,1,0,5,
+1015,Puno,Sierra Sur,2,2,7,2,0,1,1,0,2,0,1,0,6,1109
+1423,Puno,Sierra Sur,3,5,6,1,1,2,0,0,2,1,1,0,4,1108
+5813,Puno,Sierra Sur,3,3,3,1,1,2,0,0,2,0,2,1,6,1112
+9202,Puno,Sierra Sur,3,7,1,2,0,1,1,0,2,0,1,1,5,1106
+8407,Puno,Sierra Sur,2,3,5,2,0,2,0,0,2,0,2,1,5,1105
+3067,Puno,Sierra Sur,2,1,4,1,1,1,1,0,1,0,1,1,4,1104
+8753,Puno,Sierra Sur,3,4,3,2,0,2,0,0,3,1,1,0,5,1107
+8261,Puno,Sierra Sur,3,4,4,1,1,2,0,0,1,0,5,1,4,1101
+297,Puno,Sierra Sur,4,2,4,2,0,2,0,0,1,0,1,1,5,1101
+1796,Puno,Sierra Sur,2,7,6,2,0,1,1,0,4,0,2,0,6,1107
+5156,Lima,Lima Metropolitana,2,1,2,2,0,2,0,1,4,0,5,1,5,1108
+1275,Lima,Lima Metropolitana,3,4,4,1,1,1,1,0,2,0,3,0,5,1111
+5679,Lima,Lima Metropolitana,1,4,4,1,1,1,1,0,3,1,4,1,6,1109
+565,Lima,Lima Metropolitana,3,2,4,1,1,1,1,0,3,1,2,0,4,1110
+9577,Lima,Lima Metropolitana,3,3,2,2,0,2,0,0,2,0,5,1,4,
+3552,Lima,Lima Metropolitana,3,3,5,1,1,2,0,0,2,0,3,0,6,1114
+363,Lima,Lima Metropolitana,2,2,2,2,0,2,0,0,2,1,4,0,6,1115
+906,Lima,Lima Metropolitana,5,1,3,2,0,1,1,0,1,0,1,0,6,1111
+1271,Lima,Lima Metropolitana,4,4,1,1,1,2,0,1,2,1,5,0,5,1110
+9544,Lima,Lima Metropolitana,1,3,5,2,0,2,0,0,4,1,6,1,5,1106
+5483,Lima,Lima Metropolitana,1,1,1,2,0,2,0,0,1,0,5,0,6,1109
+6784,Lima,Lima Metropolitana,5,1,2,2,0,2,0,1,3,0,7,1,4,1105
+2717,Lima,Lima Metropolitana,2,4,4,1,1,1,1,0,2,0,4,1,6,1103
+3744,Lima,Lima Metropolitana,3,4,4,1,1,1,1,0,3,1,2,0,6,1112
+8815,Lima,Lima Metropolitana,3,4,4,1,1,2,0,0,3,0,3,1,4,1112
+8436,Lima,Lima Metropolitana,3,4,4,1,1,1,1,0,2,1,4,1,4,1111
+6420,Lima,Lima Metropolitana,2,2,2,2,0,2,0,0,2,0,6,0,4,1114
+3963,Lima,Lima Metropolitana,2,4,7,1,1,2,0,0,2,0,2,1,6,
+3529,Lima,Lima Metropolitana,1,2,3,1,1,1,1,0,2,1,5,1,6,1113
+6380,Lima,Lima Metropolitana,1,4,4,1,1,2,0,1,3,1,6,1,5,1112
+6655,Lima,Lima Metropolitana,3,4,3,1,1,2,0,1,2,0,5,1,4,1111
+8356,Lima,Lima Metropolitana,4,1,2,2,0,2,0,0,3,0,2,0,6,1115
+8063,Lima,Lima Metropolitana,2,1,1,2,0,2,0,0,3,0,2,1,6,1115
+6645,Lima,Lima Metropolitana,2,7,4,1,1,1,1,0,2,1,2,1,5,1113
+3556,Lima,Lima Metropolitana,3,3,1,2,0,2,0,0,3,1,1,0,5,1103
+4176,Lima,Lima Metropolitana,1,1,1,2,0,2,0,0,2,0,2,0,4,1111
+5144,Lima,Lima Metropolitana,2,2,2,2,0,2,0,0,2,0,2,0,6,1113
+4065,Lima,Lima Metropolitana,3,1,2,1,1,2,0,0,1,0,5,0,4,
+6045,Lima,Lima Metropolitana,1,2,5,2,0,1,1,0,2,1,1,1,4,1108
+8070,Lima,Lima Metropolitana,4,4,4,1,1,1,1,0,2,0,5,0,4,1110
+4402,Lima,Lima Metropolitana,3,3,4,1,1,1,1,0,2,0,5,1,4,1112
+3597,Lima,Lima Metropolitana,4,3,1,2,0,2,0,0,3,0,1,0,5,1113
+6843,Lima,Lima Metropolitana,3,3,4,1,1,1,1,0,4,0,3,1,3,1104
+5358,Lima,Lima Metropolitana,2,2,5,2,0,2,0,0,3,1,1,1,6,1107
+9781,Lima,Lima Metropolitana,3,3,6,2,0,2,0,0,3,1,1,0,5,1108
+648,Lima,Lima Metropolitana,2,2,3,1,1,2,0,0,4,1,1,0,4,1111
+9241,Lima,Lima Metropolitana,2,4,3,2,0,2,0,1,4,1,4,0,3,1114
+3120,Lima,Lima Metropolitana,4,5,3,1,1,1,1,1,3,0,3,0,4,1108
+8926,Lima,Lima Metropolitana,2,5,4,1,1,1,1,0,3,0,6,1,6,1107
+9335,Lima,Lima Metropolitana,1,3,4,2,0,2,0,1,3,0,3,1,3,
+7381,Lima,Lima Metropolitana,2,3,6,1,1,1,1,0,3,0,4,1,3,1103
+3170,Lima,Lima Metropolitana,2,5,3,2,0,1,1,0,2,0,1,0,4,1108
+2661,Lima,Lima Metropolitana,3,4,4,2,0,2,0,0,3,1,4,0,4,1106
+2485,Lima,Lima Metropolitana,2,4,5,2,0,1,1,0,4,0,1,0,4,1108
+6955,Lima,Lima Metropolitana,3,1,1,2,0,2,0,0,3,0,5,0,5,
+9700,Lima,Lima Metropolitana,2,1,7,2,0,2,0,0,3,1,1,0,6,1108
+4034,Lima,Lima Metropolitana,4,6,3,2,0,2,0,0,2,1,6,1,4,1105
+4328,Lima,Lima Metropolitana,1,7,1,2,0,2,0,0,3,0,4,0,2,1101
+7995,Lima,Lima Metropolitana,1,4,3,1,1,2,0,0,3,0,7,1,6,1109
+2573,Lima,Lima Metropolitana,4,6,3,2,0,2,0,0,1,0,4,1,3,1101
+351,Lima,Lima Metropolitana,1,4,4,1,1,2,0,1,4,1,5,0,6,1105
+9649,Lima,Lima Metropolitana,3,4,3,1,1,2,0,0,3,0,4,1,4,1109
+19,Puno,Sierra Sur,3,3,5,1,1,2,0,0,2,0,1,0,4,1105
+8849,Puno,Sierra Sur,3,4,5,2,0,2,0,0,2,0,4,0,4,1104
+2819,Puno,Sierra Sur,3,1,3,2,0,2,0,0,2,0,1,0,6,1109
+6360,Puno,Sierra Sur,4,2,4,2,0,1,1,0,2,0,1,0,4,1108
+1248,Puno,Sierra Sur,3,2,4,1,1,1,1,0,2,0,1,1,4,1107
+3241,Puno,Sierra Sur,3,5,2,1,1,2,0,0,1,0,3,1,5,1106
+4099,Puno,Sierra Sur,3,1,1,1,1,1,1,0,2,0,1,1,6,1105
+3239,Puno,Sierra Sur,2,1,6,2,0,2,0,0,1,0,1,1,4,1104
+2608,Puno,Sierra Sur,3,7,1,1,1,1,1,0,1,0,7,1,6,1107
+8970,Puno,Sierra Sur,3,3,1,1,1,1,1,0,2,0,5,1,2,1103
+4133,Puno,Sierra Sur,1,2,1,1,1,2,0,1,4,0,1,1,4,1105
+559,Puno,Sierra Sur,3,3,1,2,0,1,1,0,3,0,1,0,4,1109
+4754,Puno,Sierra Sur,4,5,6,2,0,2,0,0,2,0,1,0,6,1106
+6965,Puno,Sierra Sur,2,1,7,2,0,2,0,0,2,0,1,1,5,1102
+2581,Puno,Sierra Sur,3,2,5,1,1,2,0,0,3,0,2,0,4,1105
+1551,Puno,Sierra Sur,1,1,3,2,0,1,1,0,2,0,1,0,4,1107
+1102,Puno,Sierra Sur,2,3,4,2,0,2,0,0,2,0,2,0,6,1108
+3972,Áncash,Sierra Norte,3,2,6,1,1,2,0,0,2,1,3,0,1,1105
+2135,Áncash,Sierra Norte,2,5,3,1,1,2,0,0,3,1,3,1,6,1106
+6300,Áncash,Sierra Norte,2,1,3,1,1,2,0,0,2,0,6,0,6,1106
+5617,Áncash,Sierra Norte,4,1,6,1,1,2,0,0,2,0,4,0,5,1114
+2182,Áncash,Sierra Norte,5,4,2,2,0,1,1,0,2,1,5,0,4,1108
+4909,Áncash,Sierra Norte,4,2,4,2,0,2,0,0,2,1,6,1,6,1112
+5490,Áncash,Sierra Norte,2,3,4,1,1,1,1,0,4,1,1,0,4,1105
+818,Áncash,Sierra Norte,2,1,2,2,0,1,1,0,4,0,1,1,6,1106
+9339,Áncash,Sierra Norte,2,4,4,1,1,2,0,1,2,0,5,1,5,1103
+9219,Áncash,Sierra Norte,3,7,7,1,1,1,1,0,4,0,7,1,1,1101
+428,Áncash,Sierra Norte,3,5,3,2,0,2,0,0,2,0,5,1,4,1101
+5118,Áncash,Sierra Norte,1,3,4,1,1,1,1,0,4,0,4,0,4,1102
+7902,Áncash,Sierra Norte,3,7,2,1,1,1,1,0,1,0,4,0,4,1107
+1052,Lima,Lima Metropolitana,4,5,3,2,0,1,1,0,4,1,2,1,3,1106
+7279,Lima,Lima Metropolitana,2,1,7,1,1,2,0,0,4,0,1,0,4,1102
+1384,Lima,Lima Metropolitana,3,3,3,1,1,2,0,0,4,0,4,1,4,
+2343,Lima,Lima Metropolitana,2,1,5,1,1,2,0,0,4,0,5,1,3,1105
+2739,Lima,Lima Metropolitana,3,4,3,2,0,2,0,0,3,1,2,1,5,1110
+4477,Lima,Lima Metropolitana,3,3,4,1,1,2,0,0,1,0,4,0,5,1113
+9842,Lima,Lima Metropolitana,2,1,3,1,1,2,0,1,3,0,2,0,5,1108
+887,Lima,Lima Metropolitana,5,3,3,2,0,2,0,0,2,1,1,1,5,1107
+4086,Lima,Lima Metropolitana,2,3,4,1,1,2,0,0,2,0,3,0,3,1112
+9960,Lima,Lima Metropolitana,2,4,7,1,1,2,0,0,2,0,4,0,5,1113
+2169,Lima,Lima Metropolitana,1,5,6,1,1,2,0,1,3,0,1,0,6,1114
+5441,Lima,Lima Metropolitana,3,4,6,1,1,2,0,0,4,0,7,1,4,1106
+2897,Lima,Lima Metropolitana,2,3,3,2,0,2,0,0,3,0,4,0,6,1112
+5939,Lima,Lima Metropolitana,3,4,5,2,0,2,0,0,3,0,2,1,6,1113
+3205,Lima,Costa Norte,2,4,2,2,0,2,0,0,3,0,7,1,4,1108
+9735,Lima,Lima Metropolitana,2,4,4,2,0,2,0,0,3,0,1,1,4,1113
+7252,Lima,Lima Metropolitana,4,2,2,1,1,2,0,0,4,0,5,0,6,1107
+719,Lima,Lima Metropolitana,1,1,2,2,0,2,0,0,4,0,1,1,5,1113
+7081,Lima,Costa Norte,2,4,3,2,0,1,1,0,2,1,7,1,6,1105
+6285,Lima,Lima Metropolitana,4,2,6,1,1,2,0,0,3,0,2,0,4,1106
+8925,Lima,Lima Metropolitana,3,5,2,1,1,2,0,0,2,1,5,0,5,
+7268,Lima,Costa Norte,3,3,4,1,1,1,1,0,1,0,4,1,6,1101
+2421,Lima,Costa Norte,2,5,4,2,0,1,1,0,1,0,1,0,5,1113
+2633,Lima,Costa Norte,3,4,3,2,0,2,0,1,2,0,5,0,6,1103
+6795,Lima,Costa Norte,3,4,4,1,1,1,1,0,4,1,4,0,6,1109
+6424,Lima,Costa Norte,3,4,4,2,0,2,0,1,4,0,5,0,4,1108
+3917,Lima,Costa Norte,4,3,4,2,0,2,0,0,4,0,4,0,4,1105
+8552,Lima,Costa Norte,3,3,4,2,0,2,0,0,4,1,2,1,6,1104
+314,Lima,Lima Metropolitana,2,3,3,2,0,2,0,1,4,1,3,1,4,1107
+848,Lima,Lima Metropolitana,2,5,2,1,1,2,0,0,3,1,5,1,4,1105
+2632,Lima,Costa Norte,3,5,4,2,0,2,0,0,2,0,5,1,6,1112
+9480,Lima,Lima Metropolitana,3,3,5,1,1,2,0,1,4,1,1,0,4,1107
+3693,Lima,Lima Metropolitana,1,2,5,1,1,1,1,1,4,0,1,1,4,1103
+7730,Lima,Lima Metropolitana,2,4,4,2,0,2,0,0,4,1,2,0,6,1103
+3050,Lima,Costa Norte,3,3,4,1,1,2,0,0,2,0,3,1,4,1104
+2067,Lima,Costa Norte,2,2,6,1,1,1,1,0,2,0,4,0,4,1102
+6253,Cajamarca,Selva,2,1,7,1,1,1,1,0,4,1,2,0,6,1107
+467,Cajamarca,Selva,3,2,5,2,0,2,0,0,1,0,5,0,5,1102
+2861,Cajamarca,Sierra Norte,4,2,6,2,0,2,0,0,2,0,4,1,0,1101
+1801,Cajamarca,Selva,4,5,2,1,1,2,0,0,2,0,4,0,4,1102
+7436,Cajamarca,Sierra Norte,2,5,5,1,1,1,1,0,2,1,3,0,6,1111
+3621,Cajamarca,Sierra Norte,4,4,4,1,1,1,1,0,2,0,5,1,2,1103
+5893,Cajamarca,Sierra Norte,4,4,1,1,1,2,0,0,1,0,2,1,2,1103
+8896,Cajamarca,Sierra Norte,2,1,7,1,1,1,1,0,1,0,1,0,2,1101
+1659,Cajamarca,Selva,2,2,4,2,0,2,0,0,2,0,5,1,3,1103
+2083,Tacna,Costa Sur,3,3,3,1,1,1,1,0,3,0,4,0,6,1110
+6661,Tacna,Costa Sur,3,4,3,2,0,2,0,0,4,0,4,0,6,1111
+1755,Tacna,Costa Sur,2,3,1,2,0,1,1,0,2,1,1,1,5,1113
+114,Tacna,Costa Sur,3,3,4,2,0,2,0,0,2,0,6,1,4,1104
+4261,Tacna,Costa Sur,2,3,2,1,1,1,1,0,4,0,4,0,6,1107
+5595,Tacna,Costa Sur,2,1,2,2,0,2,0,0,4,0,1,1,6,1105
+5003,Tacna,Costa Sur,4,4,4,1,1,2,0,0,2,1,3,0,6,1114
+9114,Tacna,Costa Sur,2,4,5,2,0,1,1,0,3,1,1,1,6,1108
+4903,Tacna,Costa Sur,4,5,3,2,0,2,0,0,2,0,2,1,6,1104
+1122,Tacna,Costa Sur,3,3,4,1,1,2,0,0,3,0,4,1,6,1106
+5464,Tacna,Costa Sur,3,5,3,1,1,2,0,0,2,0,3,0,6,1109
+5031,Tacna,Costa Sur,2,3,5,2,0,2,0,0,2,0,3,0,4,1105
+2351,Lima,Lima Metropolitana,2,4,2,2,0,1,1,1,4,0,2,0,5,1107
+8667,Lima,Lima Metropolitana,2,3,1,2,0,2,0,0,4,1,2,0,4,1105
+3646,Lima,Lima Metropolitana,1,4,1,2,0,1,1,0,3,0,4,1,4,1107
+947,Lima,Lima Metropolitana,2,4,3,1,1,2,0,0,2,1,5,0,5,1111
+6021,Lima,Lima Metropolitana,4,1,1,2,0,2,0,0,2,0,3,1,6,1114
+6913,Lima,Lima Metropolitana,4,4,1,1,1,2,0,0,3,1,1,1,4,1108
+7599,Lima,Lima Metropolitana,1,4,4,1,1,1,1,0,3,1,5,0,4,1107
+8847,Lima,Lima Metropolitana,2,2,4,2,0,2,0,0,3,0,2,0,6,1114
+1740,Lima,Lima Metropolitana,2,5,3,1,1,2,0,0,4,1,5,1,2,1108
+3669,Lima,Lima Metropolitana,3,3,2,2,0,1,1,0,4,1,6,0,4,1107
+5141,Lima,Lima Metropolitana,2,3,4,1,1,1,1,1,1,0,5,1,4,1105
+6525,Lima,Lima Metropolitana,2,4,2,2,0,1,1,1,2,0,5,1,4,1110
+7792,Puno,Sierra Sur,3,3,5,1,1,2,0,0,3,0,1,1,4,1106
+8093,Puno,Sierra Sur,3,4,4,1,1,1,1,0,1,0,1,0,5,1101
+2034,Puno,Sierra Sur,4,2,2,2,0,1,1,0,3,0,2,0,6,
+5061,Puno,Sierra Sur,3,2,6,1,1,2,0,0,3,0,1,1,4,1108
+855,Puno,Sierra Sur,4,1,4,2,0,2,0,0,4,0,1,0,5,1106
+3090,Puno,Sierra Sur,3,3,2,2,0,1,1,0,3,1,5,0,6,1109
+8026,Puno,Sierra Sur,1,3,7,2,0,1,1,0,3,0,1,0,5,1103
+1622,Puno,Sierra Sur,2,1,1,2,0,2,0,0,1,0,7,0,5,1101
+7691,Puno,Sierra Sur,4,5,6,2,0,2,0,0,4,1,4,0,4,1107
+1934,Puno,Sierra Sur,4,1,2,1,1,1,1,0,2,0,1,0,6,1111
+547,Puno,Sierra Sur,1,2,7,1,1,1,1,0,4,0,1,1,4,1105
+4672,Puno,Sierra Sur,4,7,3,2,0,2,0,0,1,0,1,1,5,1101
+9205,Puno,Sierra Sur,3,1,1,2,0,2,0,0,2,0,1,1,4,1108
+5453,Puno,Sierra Sur,3,2,7,1,1,2,0,0,4,0,2,1,1,1103
+3813,Puno,Sierra Sur,3,4,3,2,0,1,1,0,3,0,5,1,1,1101
+1887,Puno,Sierra Sur,3,4,4,1,1,2,0,0,3,1,1,0,6,1103
+2675,Puno,Sierra Sur,5,7,2,2,0,1,1,0,1,0,7,1,5,1101
+17,Puno,Sierra Sur,3,4,6,1,1,1,1,0,3,0,2,0,4,1107
+3191,Puno,Sierra Sur,3,7,7,1,1,1,1,0,2,0,1,1,4,1101
+5950,Puno,Sierra Sur,3,3,4,1,1,2,0,0,2,0,1,1,6,1105
+4962,Puno,Sierra Sur,2,2,4,1,1,1,1,0,3,0,2,0,6,1109
+7726,Puno,Sierra Sur,4,5,3,2,0,1,1,0,2,0,6,1,4,1107
+6013,Lima,Lima Metropolitana,4,2,1,2,0,1,1,1,2,0,5,0,6,1115
+7416,Lima,Lima Metropolitana,2,2,3,1,1,2,0,0,2,0,4,1,6,1110
+2224,Lima,Lima Metropolitana,1,4,1,1,1,2,0,0,2,0,1,0,6,1114
+3196,Lima,Lima Metropolitana,2,1,1,2,0,2,0,0,3,0,3,0,5,1110
+6549,Lima,Lima Metropolitana,3,5,4,1,1,2,0,0,4,0,4,1,6,1103
+6324,Lima,Lima Metropolitana,2,1,1,1,1,2,0,0,3,0,2,1,6,1113
+9556,Áncash,Costa Norte,3,4,5,2,0,2,0,0,1,0,5,1,5,1105
+5906,Áncash,Costa Norte,3,1,1,2,0,2,0,0,3,1,3,1,6,1112
+1028,Áncash,Costa Norte,3,2,3,1,1,2,0,0,3,1,3,0,6,1112
+1292,Áncash,Costa Norte,2,3,5,2,0,1,1,1,3,0,2,0,4,1108
+9155,Áncash,Costa Norte,1,5,3,1,1,1,1,0,2,0,5,0,3,1102
+9444,Áncash,Costa Norte,2,1,5,1,1,1,1,0,2,1,6,1,4,1107
+5311,Áncash,Costa Norte,4,1,1,2,0,1,1,0,4,0,7,0,3,1106
+4294,Áncash,Costa Norte,2,3,2,1,1,1,1,0,3,0,4,1,5,1114
+8537,Áncash,Costa Norte,3,6,5,1,1,1,1,0,2,1,2,0,3,1108
+7759,Áncash,Costa Norte,2,4,1,1,1,1,1,0,3,0,5,1,6,1106
+5798,Áncash,Costa Norte,3,4,4,1,1,2,0,0,2,1,3,0,5,1106
+2678,Áncash,Costa Norte,4,1,1,2,0,1,1,0,3,1,3,1,5,1104
+4730,Áncash,Costa Norte,3,1,7,1,1,1,1,0,1,0,1,0,6,1111
+9260,Áncash,Costa Norte,5,5,4,1,1,2,0,0,3,1,5,0,2,1109
+9416,Lambayeque,Costa Norte,3,3,5,2,0,2,0,0,3,0,5,1,4,1108
+8976,Callao,Lima Metropolitana,3,5,5,1,1,2,0,0,2,0,2,0,2,1104
+6352,Ica,Costa Sur,2,5,3,2,0,1,1,0,2,0,5,1,4,1102
+4112,Callao,Lima Metropolitana,3,2,6,2,0,2,0,0,3,0,2,1,5,1106
+6675,Callao,Lima Metropolitana,2,3,4,1,1,2,0,0,4,1,3,1,0,1103
+1182,Callao,Lima Metropolitana,2,5,6,2,0,1,1,0,1,0,3,1,4,1106
+2548,Callao,Lima Metropolitana,3,3,4,1,1,1,1,0,2,0,4,1,4,1106
+5967,Callao,Lima Metropolitana,3,3,2,1,1,1,1,0,3,1,3,0,5,1107
+770,Callao,Lima Metropolitana,1,7,1,2,0,1,1,0,4,1,5,0,4,1105
+1826,Callao,Lima Metropolitana,5,3,6,2,0,2,0,0,4,1,1,1,1,1108
+9554,Ica,Costa Sur,2,2,4,1,1,2,0,0,4,0,4,0,4,1111
+5882,Ica,Costa Sur,3,3,4,2,0,2,0,0,2,1,4,0,6,1112
+9369,Callao,Lima Metropolitana,4,7,1,1,1,2,0,0,2,0,7,0,4,1107
+5625,Ica,Costa Sur,3,3,4,1,1,2,0,0,3,0,1,0,6,1110
+6650,Ica,Costa Sur,3,4,3,1,1,1,1,0,3,0,6,1,6,1111
+8932,Callao,Lima Metropolitana,1,3,6,1,1,1,1,0,2,0,7,0,3,1106
+5336,Ica,Costa Sur,2,1,7,1,1,1,1,0,4,0,4,1,3,1101
+5119,Callao,Lima Metropolitana,1,4,4,1,1,2,0,0,4,0,7,0,6,1111
+2668,Ica,Costa Sur,3,7,2,1,1,1,1,0,4,1,4,1,4,1102
+3833,Callao,Lima Metropolitana,3,3,1,1,1,2,0,0,3,1,1,0,5,1114
+6601,Ica,Costa Sur,2,5,7,1,1,1,1,0,4,1,7,1,3,1103
+4867,Callao,Lima Metropolitana,2,3,5,1,1,1,1,0,2,0,3,0,1,1107
+1902,Callao,Lima Metropolitana,3,4,4,2,0,2,0,0,3,1,5,0,4,1105
+6422,Ica,Costa Sur,3,3,1,1,1,2,0,0,2,1,1,1,6,1114
+9015,Callao,Lima Metropolitana,3,4,4,2,0,2,0,0,2,0,5,1,4,
+8304,Callao,Lima Metropolitana,4,4,2,2,0,2,0,1,2,0,7,0,4,1112
+8811,Callao,Lima Metropolitana,2,3,7,1,1,2,0,1,4,0,3,1,5,1106
+4695,Callao,Lima Metropolitana,2,5,4,2,0,2,0,0,4,1,4,1,4,1104
+134,Callao,Lima Metropolitana,1,1,2,1,1,2,0,0,2,1,4,1,6,
+2776,Ica,Costa Sur,2,3,3,2,0,1,1,0,4,1,2,0,6,1103
+205,Callao,Lima Metropolitana,2,5,3,1,1,2,0,0,1,0,5,0,4,1113
+6313,Callao,Lima Metropolitana,4,5,1,1,1,2,0,0,3,1,4,1,6,1103
+8880,Callao,Lima Metropolitana,3,2,5,2,0,2,0,0,4,0,2,1,2,
+1337,Arequipa,Costa Sur,1,3,3,1,1,1,1,0,3,0,2,0,4,1105
+9883,Arequipa,Costa Sur,2,4,5,1,1,2,0,0,3,0,2,0,6,1106
+9555,Arequipa,Costa Sur,3,6,3,2,0,1,1,0,3,0,3,0,4,1113
+8250,Arequipa,Costa Sur,3,4,3,1,1,1,1,0,3,0,4,1,5,1105
+2684,Arequipa,Costa Sur,4,2,6,1,1,1,1,0,4,0,1,0,3,1104
+7447,Arequipa,Costa Sur,2,2,2,1,1,2,0,0,3,0,1,1,3,1108
+5992,Arequipa,Costa Sur,2,5,3,1,1,2,0,0,3,0,2,0,4,1109
+6378,Arequipa,Costa Sur,3,7,4,1,1,1,1,0,2,0,3,1,6,1102
+1217,Arequipa,Costa Sur,4,4,4,1,1,1,1,0,3,1,2,1,6,1109
+9839,Arequipa,Costa Sur,4,2,3,1,1,1,1,0,2,0,2,0,5,1112
+4277,Arequipa,Costa Sur,1,5,2,2,0,2,0,0,4,0,3,1,4,1105
+4183,Arequipa,Costa Sur,2,1,3,2,0,1,1,0,4,0,3,1,4,1107
+1822,Lima,Lima Metropolitana,2,4,5,1,1,2,0,0,4,1,4,0,6,1114
+6075,Lima,Lima Metropolitana,4,4,4,2,0,1,1,0,2,1,1,1,5,1115
+8971,Lima,Lima Metropolitana,3,2,4,1,1,2,0,0,1,0,2,0,4,1113
+1825,Lima,Lima Metropolitana,3,3,5,2,0,2,0,1,2,0,7,1,1,1102
+8420,Lima,Lima Metropolitana,3,7,1,1,1,2,0,1,4,1,6,1,6,
+8241,Callao,Lima Metropolitana,3,2,3,2,0,2,0,0,3,0,2,1,4,
+3398,Callao,Lima Metropolitana,4,4,1,2,0,2,0,0,2,0,6,0,6,1110
+9639,Lima,Lima Metropolitana,3,3,5,1,1,1,1,0,4,0,2,0,4,1108
+4145,Lima,Lima Metropolitana,5,1,1,1,1,2,0,0,2,1,1,0,6,1107
+1259,Lima,Lima Metropolitana,3,5,4,2,0,1,1,0,4,1,4,1,4,1106
+7181,Lima,Lima Metropolitana,1,4,5,2,0,1,1,0,2,0,4,1,4,1107
+7631,Lima,Lima Metropolitana,3,5,2,1,1,2,0,0,2,0,4,0,4,1103
+7768,Lima,Lima Metropolitana,1,5,2,2,0,2,0,1,3,0,7,0,4,1105
+5371,Lima,Lima Metropolitana,2,3,5,1,1,2,0,0,3,1,1,0,6,
+8495,Lima,Lima Metropolitana,3,3,4,1,1,2,0,0,4,1,4,1,4,1106
+8008,Lima,Lima Metropolitana,5,4,7,2,0,1,1,1,2,0,1,0,5,
+8507,Lima,Lima Metropolitana,2,3,3,1,1,1,1,1,4,0,2,1,6,1112
+6446,Callao,Lima Metropolitana,3,1,1,2,0,2,0,0,3,0,1,0,5,1109
+2125,Lima,Lima Metropolitana,1,2,7,1,1,2,0,0,2,0,6,1,5,1108
+1855,Lima,Lima Metropolitana,2,3,1,1,1,2,0,0,2,0,7,0,1,1102
+7214,Lima,Lima Metropolitana,3,3,5,1,1,2,0,1,2,1,7,1,4,1103
+766,Callao,Lima Metropolitana,3,2,4,1,1,1,1,1,2,0,3,0,5,1105
+8183,Callao,Lima Metropolitana,4,6,2,1,1,2,0,0,3,1,3,1,6,1109
+6125,Huancavelica,Sierra Sur,3,3,6,1,1,2,0,0,3,0,1,0,4,1104
+8362,Huancavelica,Sierra Sur,1,3,4,2,0,2,0,0,4,0,3,1,2,1103
+2263,Huancavelica,Sierra Sur,4,1,7,1,1,1,1,0,1,1,7,1,3,1101
+5970,Huancavelica,Sierra Sur,5,1,1,2,0,2,0,0,3,0,1,0,1,1101
+8333,Huancavelica,Sierra Sur,2,2,1,2,0,1,1,0,2,0,2,0,6,1112
+9222,Huancavelica,Sierra Sur,3,4,4,1,1,1,1,0,1,0,3,0,5,1106
+1121,Huancavelica,Sierra Sur,3,5,2,1,1,2,0,0,2,0,5,1,5,1106
+614,Huancavelica,Sierra Sur,2,3,4,1,1,2,0,0,2,0,2,1,6,1106
+6899,Huancavelica,Sierra Sur,2,1,7,2,0,2,0,0,1,0,1,1,3,1101
+8466,Huancavelica,Sierra Sur,3,5,2,1,1,2,0,0,1,0,5,0,4,1107
+5303,Huancavelica,Sierra Sur,4,3,3,1,1,2,0,0,1,0,5,1,4,1102
+9203,Huancavelica,Sierra Sur,2,5,1,2,0,2,0,0,2,0,6,1,5,1107
+5255,Huancavelica,Sierra Sur,4,3,4,2,0,1,1,0,2,0,4,0,4,1109
+6353,Huancavelica,Sierra Sur,3,3,6,1,1,2,0,0,3,1,4,0,3,1101
+1494,Huancavelica,Sierra Sur,4,4,4,2,0,2,0,0,3,0,7,1,3,1101
+8666,Huancavelica,Sierra Sur,2,2,7,1,1,2,0,0,3,1,1,0,3,1103
+6067,Huancavelica,Sierra Sur,2,1,2,2,0,1,1,0,1,0,3,1,6,1113
+7445,Huancavelica,Sierra Sur,3,1,3,1,1,1,1,0,2,1,3,0,4,1102
+4782,Cajamarca,Sierra Norte,3,4,4,1,1,2,0,0,2,0,3,0,4,1101
+6113,Cajamarca,Sierra Norte,2,5,3,1,1,1,1,1,2,0,3,1,4,1103
+5347,Cajamarca,Sierra Norte,3,1,6,2,0,1,1,0,1,0,4,0,1,1101
+6721,Cajamarca,Sierra Norte,2,1,1,2,0,2,0,0,1,0,6,1,0,1101
+3915,Cajamarca,Sierra Norte,2,2,6,1,1,2,0,0,3,0,1,0,1,1102
+459,Cajamarca,Sierra Norte,1,2,1,2,0,2,0,0,1,0,3,0,3,1106
+4719,Cajamarca,Sierra Norte,4,3,4,2,0,2,0,0,2,0,2,0,4,1105
+2438,Cajamarca,Sierra Norte,3,1,6,2,0,2,0,0,2,0,7,1,2,1102
+2546,Cajamarca,Sierra Norte,3,4,2,2,0,2,0,0,1,0,6,1,4,1101
+469,Cajamarca,Sierra Norte,2,6,5,1,1,1,1,0,3,0,3,0,2,1101
+5304,Cajamarca,Sierra Norte,3,5,6,1,1,1,1,0,2,0,4,1,2,1101
+8058,Cajamarca,Sierra Norte,3,4,1,2,0,1,1,0,1,0,6,1,4,1103
+4648,Ayacucho,Sierra Sur,4,1,3,1,1,1,1,0,3,0,3,0,6,1115
+1147,Ayacucho,Sierra Sur,1,2,3,1,1,2,0,0,2,1,1,1,6,1115
+2200,Ayacucho,Sierra Sur,4,1,4,1,1,1,1,0,2,0,5,1,3,1102
+1830,Ayacucho,Sierra Sur,2,2,3,1,1,2,0,0,4,0,4,0,5,1111
+3147,Ayacucho,Sierra Sur,4,4,4,2,0,2,0,0,2,0,2,0,5,1107
+6886,Ayacucho,Sierra Sur,3,4,4,1,1,2,0,0,3,0,1,1,5,1108
+2691,Ayacucho,Sierra Sur,3,2,6,2,0,1,1,0,2,0,2,0,2,1104
+3872,Ayacucho,Sierra Sur,2,7,5,2,0,2,0,0,3,1,2,0,6,1110
+2490,Ayacucho,Sierra Sur,3,3,3,2,0,1,1,0,2,0,6,1,2,1105
+3816,Ayacucho,Sierra Sur,3,3,3,2,0,2,0,0,3,0,2,0,4,1106
+6182,Ayacucho,Sierra Sur,1,5,2,2,0,2,0,0,4,0,1,1,4,1106
+7679,Ayacucho,Sierra Sur,3,5,3,1,1,2,0,0,3,0,3,1,6,1107
+3696,Ayacucho,Sierra Sur,3,2,3,2,0,2,0,0,1,0,4,0,4,1104
+247,Ayacucho,Sierra Sur,2,1,3,2,0,2,0,0,3,1,1,0,4,1108
+3832,Ayacucho,Sierra Sur,3,4,3,1,1,2,0,0,3,0,4,1,4,1103
+4379,Ayacucho,Sierra Sur,3,2,6,1,1,1,1,0,3,0,1,0,4,1103
+7723,Ayacucho,Sierra Sur,3,2,4,2,0,2,0,0,1,0,5,1,1,1104
+3941,Ayacucho,Sierra Sur,2,4,3,2,0,2,0,0,3,0,2,0,4,1103
+1572,Ayacucho,Sierra Sur,3,4,3,2,0,2,0,0,2,1,2,0,6,1105
+4859,Ayacucho,Sierra Sur,2,3,5,1,1,1,1,0,3,1,1,1,4,1106
+7597,Ayacucho,Sierra Sur,3,6,4,1,1,1,1,0,2,0,5,1,4,1102
+6036,Ayacucho,Sierra Sur,3,1,1,2,0,2,0,0,2,1,3,0,6,1113
+9511,Ayacucho,Sierra Sur,3,2,4,1,1,1,1,0,2,0,5,1,1,1102
+3710,Ayacucho,Sierra Sur,2,2,1,1,1,1,1,0,3,0,2,1,4,1104
+2784,Ayacucho,Sierra Sur,4,3,3,2,0,2,0,0,3,0,5,0,6,1113
+8392,Lima,Lima Metropolitana,4,3,2,2,0,2,0,0,2,0,1,0,6,1115
+4249,Lima,Lima Metropolitana,3,2,1,2,0,2,0,0,2,0,1,1,6,1115
+8587,Lima,Lima Metropolitana,2,1,1,2,0,2,0,0,2,0,5,0,5,1114
+3221,Lima,Lima Metropolitana,3,1,5,2,0,2,0,0,2,0,5,1,4,1104
+6047,Lima,Lima Metropolitana,3,4,3,1,1,2,0,0,4,0,6,0,5,1110
+1782,Lima,Lima Metropolitana,3,2,2,2,0,2,0,0,2,0,2,1,5,1104
+9051,Lima,Lima Metropolitana,4,3,4,1,1,2,0,0,2,1,3,1,6,1106
+3195,Lima,Lima Metropolitana,2,2,2,2,0,1,1,0,3,0,2,1,4,1113
+1403,Lima,Lima Metropolitana,3,2,1,2,0,2,0,1,2,0,6,0,6,
+7312,Lima,Lima Metropolitana,1,3,5,2,0,2,0,0,1,0,3,0,6,
+258,Lima,Lima Metropolitana,3,4,3,2,0,2,0,0,2,0,3,1,6,1115
+621,Lima,Lima Metropolitana,4,2,1,2,0,2,0,0,2,0,5,0,6,1115
+3133,Lima,Lima Metropolitana,3,4,2,1,1,2,0,0,3,1,4,0,6,1115
+4892,Lima,Lima Metropolitana,1,2,3,2,0,2,0,0,2,0,2,1,4,1105
+6388,Lima,Lima Metropolitana,2,1,1,2,0,2,0,0,2,0,4,0,6,1115
+2455,Lima,Lima Metropolitana,4,2,1,2,0,2,0,0,2,0,4,0,6,1115
+1702,Lima,Lima Metropolitana,2,3,4,2,0,2,0,1,3,1,3,0,6,1109
+176,Lima,Lima Metropolitana,3,4,3,1,1,1,1,0,3,0,4,1,6,
+6730,Lima,Lima Metropolitana,4,1,1,2,0,2,0,0,1,0,1,0,5,1115
+2807,Lima,Lima Metropolitana,2,5,1,1,1,2,0,0,4,0,3,1,6,1113
+5842,Lima,Lima Metropolitana,2,4,3,2,0,2,0,0,4,1,4,1,5,1115
+3340,Lima,Lima Metropolitana,2,1,1,1,1,2,0,0,4,0,4,0,6,1115
+5419,Lima,Lima Metropolitana,3,5,1,1,1,2,0,0,2,0,3,1,6,1112
+8678,Lima,Lima Metropolitana,1,1,6,2,0,2,0,0,3,0,3,0,6,
+4706,Lima,Lima Metropolitana,4,3,1,2,0,2,0,0,4,1,1,0,5,1106
+3741,Lima,Lima Metropolitana,2,4,3,2,0,2,0,1,2,1,4,1,5,1114
+6348,Lima,Lima Metropolitana,3,4,4,1,1,2,0,0,2,0,4,1,6,1113
+744,Lima,Lima Metropolitana,4,3,4,2,0,2,0,0,2,0,4,0,5,
+2292,Lima,Lima Metropolitana,1,4,2,1,1,2,0,1,4,0,2,1,4,1106
+8789,Lima,Lima Metropolitana,1,1,3,2,0,2,0,1,2,0,3,1,4,1105
+8819,Piura,Costa Norte,3,1,7,2,0,2,0,0,1,0,7,1,1,1106
+9346,Piura,Costa Norte,2,4,1,2,0,2,0,0,1,0,6,0,6,1115
+1421,Piura,Costa Norte,2,2,3,2,0,2,0,0,2,0,1,0,6,1106
+2207,Piura,Costa Norte,1,1,4,1,1,1,1,0,4,0,3,1,6,1105
+7856,Piura,Costa Norte,1,1,1,1,1,2,0,0,4,1,7,1,5,1103
+6228,Piura,Costa Norte,3,3,3,2,0,2,0,0,2,1,4,0,6,1115
+4265,Piura,Costa Norte,3,7,1,2,0,2,0,0,1,0,3,0,5,1114
+7739,Piura,Costa Norte,3,4,4,1,1,1,1,0,4,0,5,1,5,1106
+1621,Piura,Costa Norte,2,4,6,1,1,2,0,0,2,1,4,0,5,1111
+8001,Piura,Costa Norte,1,1,7,2,0,2,0,0,4,0,4,1,4,1111
+9898,Piura,Costa Norte,4,1,4,2,0,2,0,0,2,0,3,0,4,1102
+3524,Piura,Costa Norte,3,1,5,1,1,2,0,0,2,1,2,1,6,1105
+8129,Piura,Costa Norte,4,4,5,2,0,1,1,0,2,1,3,1,6,1111
+8377,Lima,Lima Metropolitana,4,5,3,2,0,1,1,0,1,0,4,0,4,1109
+9665,Lima,Lima Metropolitana,2,3,5,1,1,2,0,1,3,1,3,1,4,1105
+2006,Lima,Lima Metropolitana,5,4,2,2,0,2,0,0,1,1,2,0,5,1110
+9494,Lima,Lima Metropolitana,4,6,5,2,0,1,1,0,3,1,6,1,4,1105
+2723,Lima,Lima Metropolitana,1,2,1,2,0,2,0,0,3,0,1,0,6,1106
+4876,Lima,Lima Metropolitana,3,1,5,1,1,2,0,0,4,1,4,1,3,1107
+2212,Lima,Lima Metropolitana,3,4,2,2,0,2,0,0,2,0,4,0,3,1105
+1992,Lima,Lima Metropolitana,2,3,6,2,0,2,0,0,4,0,4,0,3,1106
+1284,Lima,Lima Metropolitana,1,2,3,2,0,2,0,0,4,1,2,1,5,1107
+2197,Lima,Lima Metropolitana,3,3,3,1,1,2,0,0,3,0,1,1,6,1105
+239,Lima,Lima Metropolitana,3,4,4,1,1,2,0,1,3,0,4,0,6,1106
+3802,Lima,Lima Metropolitana,2,4,4,1,1,1,1,0,4,1,4,1,4,1108
+5652,Lima,Lima Metropolitana,3,1,6,1,1,2,0,0,2,0,1,0,4,1106
+3910,Lima,Lima Metropolitana,3,4,3,1,1,1,1,0,3,1,3,1,5,1111
+4816,La Libertad,Costa Norte,3,4,6,2,0,2,0,1,4,1,1,1,6,1108
+2005,La Libertad,Costa Norte,2,2,2,2,0,2,0,0,3,0,6,0,4,1108
+6320,La Libertad,Costa Norte,2,3,4,2,0,1,1,0,4,0,7,1,3,1102
+1089,La Libertad,Costa Norte,4,2,5,2,0,1,1,0,3,1,1,0,6,1112
+6148,La Libertad,Costa Norte,4,3,5,1,1,2,0,1,3,0,5,1,2,1107
+1518,La Libertad,Costa Norte,3,4,3,2,0,2,0,0,1,0,5,0,6,1112
+4536,Junín,Sierra Centro,3,2,6,1,1,2,0,0,3,1,1,0,4,1101
+4376,Pasco,Sierra Centro,3,3,3,2,0,2,0,1,3,0,4,1,6,1104
+3914,Junín,Sierra Centro,3,5,6,2,0,2,0,0,2,0,3,1,3,1101
+8534,Pasco,Sierra Centro,2,3,7,1,1,1,1,0,3,0,2,0,4,1108
+8865,Junín,Sierra Centro,5,2,1,1,1,1,1,0,1,0,1,0,1,1101
+4947,Junín,Sierra Centro,3,1,7,2,0,1,1,0,3,0,1,0,6,1112
+1361,Pasco,Sierra Centro,4,1,7,1,1,2,0,0,1,1,2,1,2,1102
+1377,Pasco,Sierra Centro,2,7,1,2,0,2,0,0,4,0,2,1,6,1107
+3281,Junín,Sierra Centro,2,2,4,2,0,1,1,0,3,1,1,1,6,1101
+832,Pasco,Sierra Centro,3,2,4,1,1,1,1,0,2,0,4,0,4,1106
+3924,Pasco,Sierra Centro,2,2,4,1,1,1,1,0,2,0,3,0,4,1106
+1041,Pasco,Sierra Centro,3,1,3,2,0,2,0,0,2,0,2,1,6,1113
+721,Pasco,Sierra Centro,3,3,5,2,0,2,0,0,3,0,2,0,6,1103
+2081,Junín,Sierra Centro,5,7,4,2,0,1,1,0,2,0,1,0,4,1101
+6046,Pasco,Sierra Centro,2,4,4,1,1,1,1,0,3,0,4,0,5,1102
+5879,Junín,Sierra Centro,1,1,1,1,1,2,0,0,1,0,2,0,3,1101
+6340,Junín,Sierra Centro,1,1,4,1,1,2,0,0,2,0,4,1,6,1108
+6130,Junín,Sierra Centro,2,7,3,2,0,2,0,0,3,0,1,1,4,1102
+9249,Pasco,Sierra Centro,3,3,4,2,0,2,0,1,3,0,4,1,1,1105
+3231,Junín,Sierra Centro,1,7,1,2,0,2,0,0,3,0,4,0,6,1104
+4412,Pasco,Sierra Centro,1,3,4,2,0,1,1,0,3,0,3,1,4,1105
+3685,Pasco,Sierra Centro,3,4,5,2,0,2,0,0,3,0,3,0,4,1105
+8035,Junín,Sierra Centro,2,3,4,2,0,2,0,0,3,0,3,1,6,1113
+8735,Lima,Costa Norte,4,6,2,1,1,1,1,1,2,0,6,1,6,1105
+8660,Lima,Costa Norte,3,4,4,1,1,1,1,1,3,1,2,0,4,1110
+7693,Lima,Lima Metropolitana,4,4,1,2,0,2,0,0,2,0,1,0,6,1107
+9723,Lima,Costa Norte,5,5,2,2,0,1,1,0,3,1,5,0,6,1102
+2217,Lima,Costa Norte,2,1,2,2,0,2,0,0,2,0,3,1,6,1109
+8876,Lima,Lima Metropolitana,2,4,4,1,1,1,1,0,3,0,4,0,6,1114
+7906,Lima,Lima Metropolitana,3,3,5,1,1,2,0,0,3,0,2,1,4,1107
+5576,Lima,Lima Metropolitana,2,3,3,1,1,1,1,0,2,1,5,1,4,1108
+4312,Lima,Lima Metropolitana,2,4,4,1,1,1,1,0,4,1,6,1,6,1104
+5052,Lima,Lima Metropolitana,3,7,1,2,0,2,0,0,2,0,6,0,3,1110
+366,Lima,Lima Metropolitana,5,2,2,1,1,1,1,0,4,0,4,1,5,1106
+3678,Lima,Lima Metropolitana,2,5,4,2,0,1,1,0,4,0,5,0,4,1108
+5386,Lima,Lima Metropolitana,3,5,1,1,1,2,0,0,3,0,7,0,4,1101
+9130,Lima,Costa Norte,3,2,1,2,0,2,0,1,2,0,7,0,4,1102
+339,Lima,Costa Norte,2,4,5,2,0,2,0,0,2,0,4,0,3,1109
+1476,Lima,Costa Norte,2,7,4,2,0,2,0,0,3,1,7,1,4,1101
+5636,Lima,Costa Norte,2,4,1,2,0,2,0,1,2,0,2,1,6,1114
+4283,Lima,Costa Norte,2,3,4,1,1,2,0,1,3,0,2,1,4,1107
+6287,Lima,Lima Metropolitana,2,4,5,1,1,1,1,1,2,0,4,1,4,1107
+5597,Lima,Lima Metropolitana,3,4,3,1,1,2,0,0,3,1,1,0,5,1111
+5864,Lima,Costa Norte,2,4,6,1,1,1,1,0,1,0,5,1,3,1105
+8402,Lima,Costa Norte,2,5,3,2,0,1,1,1,3,0,4,0,3,1103
+1713,Lima,Costa Norte,1,5,7,2,0,2,0,0,2,0,1,0,4,1108
+873,Ica,Costa Sur,2,7,7,2,0,1,1,0,4,0,7,1,4,
+833,Ica,Costa Sur,1,5,4,2,0,2,0,0,3,1,5,0,6,1103
+6270,Ica,Costa Sur,3,7,4,1,1,1,1,0,3,0,4,1,5,1107
+8007,Ica,Costa Sur,2,3,5,2,0,2,0,0,3,0,3,0,6,1106
+9371,Ica,Costa Sur,2,1,4,2,0,2,0,0,4,0,3,1,5,1108
+9208,Ica,Costa Sur,4,5,3,1,1,2,0,0,2,0,4,0,6,1107
+6455,Lambayeque,Costa Norte,4,6,3,1,1,2,0,1,2,0,6,1,5,1114
+4018,Lambayeque,Costa Norte,2,7,2,1,1,1,1,0,4,0,7,1,1,1101
+564,Lambayeque,Costa Norte,3,2,2,1,1,2,0,0,3,0,5,1,5,1107
+7773,Lambayeque,Costa Norte,2,1,1,2,0,2,0,0,4,0,5,0,6,1115
+2830,Lambayeque,Costa Norte,4,2,5,1,1,2,0,0,3,0,2,0,6,1107
+3668,Lambayeque,Costa Norte,1,1,7,2,0,1,1,0,4,1,1,1,6,1113
+4544,Lambayeque,Costa Norte,2,6,4,1,1,1,1,0,1,0,6,0,4,1102
+9070,Lambayeque,Costa Norte,1,4,5,1,1,1,1,0,1,1,3,1,3,1101
+9573,Lambayeque,Costa Norte,2,1,5,2,0,2,0,0,2,0,6,0,5,1114
+3547,Lambayeque,Costa Norte,3,3,2,2,0,2,0,0,3,0,6,1,6,1104
+9235,Lambayeque,Costa Norte,2,3,1,2,0,2,0,0,2,0,1,0,6,1108
+3907,Lima,Lima Metropolitana,3,5,2,2,0,2,0,1,4,0,2,1,6,1112
+8317,Lima,Lima Metropolitana,5,1,1,2,0,2,0,0,3,0,5,0,6,1114
+3503,Lima,Lima Metropolitana,1,5,4,2,0,2,0,1,4,1,6,0,4,1105
+3440,Lima,Lima Metropolitana,5,2,5,2,0,2,0,0,4,1,4,0,6,1115
+5900,Lima,Lima Metropolitana,2,4,3,2,0,1,1,0,2,1,2,0,6,1110
+7934,Lima,Lima Metropolitana,3,1,3,1,1,2,0,1,3,0,4,1,3,1103
+286,Lima,Lima Metropolitana,2,1,4,2,0,2,0,1,3,1,3,0,6,1112
+5754,Lima,Lima Metropolitana,3,3,4,1,1,2,0,0,4,0,3,1,4,1104
+450,Lima,Lima Metropolitana,1,1,2,2,0,2,0,0,4,1,2,0,6,1114
+779,Lima,Lima Metropolitana,4,4,4,1,1,2,0,0,2,0,4,0,5,1105
+9558,Lima,Lima Metropolitana,1,1,1,1,1,1,1,0,3,0,2,1,6,1106
+7807,Lima,Lima Metropolitana,1,3,4,1,1,2,0,0,3,0,3,0,4,1105
+6722,Lima,Lima Metropolitana,3,2,2,2,0,2,0,1,3,0,6,1,6,1112
+27,Lima,Lima Metropolitana,4,4,3,2,0,1,1,1,2,0,4,1,6,1106
+2463,Lima,Lima Metropolitana,1,4,3,2,0,2,0,0,4,0,2,1,6,1110
+738,Lima,Lima Metropolitana,1,1,3,1,1,2,0,0,2,1,1,0,4,1112
+1480,Lima,Lima Metropolitana,4,6,1,2,0,1,1,0,4,1,3,1,5,1110
+9593,Lima,Lima Metropolitana,3,5,2,1,1,2,0,0,4,1,6,1,4,1108
+8559,Lima,Lima Metropolitana,1,1,2,2,0,2,0,0,2,1,1,1,6,1112
+9215,Lima,Lima Metropolitana,4,4,6,2,0,2,0,0,2,0,6,0,4,1112
+9841,Lima,Lima Metropolitana,2,1,6,2,0,2,0,1,4,1,3,0,6,1113
+9799,Lima,Lima Metropolitana,2,4,2,2,0,1,1,0,2,0,5,1,4,1111
+5157,Lima,Lima Metropolitana,3,2,3,1,1,2,0,0,2,0,6,1,4,1104
+7098,Lima,Lima Metropolitana,2,1,7,2,0,1,1,0,2,0,1,0,6,1115
+6054,Loreto,Selva,2,6,4,1,1,1,1,0,,0,5,0,4,
+9048,Loreto,Selva,3,2,1,1,1,1,1,0,3,0,7,0,5,1107
+138,Loreto,Selva,5,4,7,2,0,1,1,0,,0,7,1,6,1105
+2176,Loreto,Selva,3,4,2,1,1,1,1,0,4,0,7,0,4,1106
+9843,Loreto,Selva,3,3,4,1,1,2,0,1,4,0,3,1,6,
+9765,Loreto,Selva,1,6,3,1,1,2,0,0,3,0,4,1,3,1102
+9313,Loreto,Selva,2,4,6,1,1,1,1,0,4,1,3,0,5,1109
+6506,Loreto,Selva,2,2,2,1,1,1,1,0,4,1,3,1,4,1101
+5114,Loreto,Selva,2,3,4,2,0,2,0,0,4,0,2,0,2,1101
+1810,Loreto,Selva,1,7,7,1,1,1,1,0,4,0,7,1,3,
+7055,Loreto,Selva,1,5,4,1,1,1,1,0,3,0,5,1,4,1104
+910,Loreto,Selva,3,4,3,2,0,2,0,0,1,0,6,1,4,1101
+7976,Loreto,Selva,2,3,1,2,0,2,0,0,2,0,1,0,4,1106
+8232,Cusco,Sierra Sur,1,6,4,1,1,1,1,0,4,1,1,1,6,1112
+2344,Cusco,Sierra Sur,4,4,3,1,1,2,0,0,2,0,3,0,6,1104
+6685,Cusco,Sierra Sur,5,4,5,2,0,1,1,0,3,0,1,1,4,1109
+776,Cusco,Sierra Sur,4,6,4,2,0,1,1,0,1,0,7,0,1,1101
+3795,Cusco,Sierra Sur,3,2,1,2,0,2,0,0,2,0,3,0,5,1107
+2653,Cusco,Sierra Sur,2,5,7,2,0,1,1,0,3,0,1,0,1,1102
+7262,Cusco,Sierra Sur,3,5,3,2,0,2,0,0,3,1,5,0,4,1102
+3089,Cusco,Sierra Sur,4,1,7,1,1,2,0,0,3,0,1,1,4,1101
+111,Cusco,Sierra Sur,2,5,2,2,0,2,0,0,3,0,5,1,6,1108
+4503,Cusco,Sierra Sur,3,4,5,2,0,1,1,0,2,0,4,1,6,1109
+9619,Cusco,Sierra Sur,3,1,7,1,1,1,1,0,3,0,1,1,2,1104
+6598,Cusco,Sierra Sur,3,5,3,1,1,2,0,0,4,0,7,1,4,1106
+2760,Cusco,Sierra Sur,3,1,5,2,0,2,0,0,2,1,4,0,6,1115
+8169,Cusco,Sierra Sur,2,4,1,2,0,2,0,0,1,0,1,0,6,1112
+1853,Cusco,Sierra Sur,2,1,2,2,0,2,0,0,2,1,1,0,6,
+3506,Cusco,Sierra Sur,2,2,3,2,0,2,0,0,2,1,3,0,6,1111
+8113,Cusco,Sierra Sur,4,4,1,1,1,1,1,0,2,0,1,1,4,1107
+4075,Cusco,Sierra Sur,3,5,4,2,0,2,0,0,2,0,4,0,5,1110
+4618,San Martín,Selva,3,4,5,2,0,2,0,0,2,0,1,1,4,1106
+2765,Loreto,Selva,3,2,4,2,0,2,0,0,2,0,2,1,4,1104
+8734,Loreto,Selva,2,4,5,2,0,2,0,0,3,0,3,1,4,1102
+5982,San Martín,Selva,1,1,6,2,0,2,0,0,3,0,1,0,3,1103
+1675,Loreto,Selva,1,7,1,2,0,2,0,0,2,0,3,0,6,1108
+3185,Loreto,Selva,5,3,1,2,0,2,0,0,1,0,1,0,6,1113
+4037,San Martín,Selva,4,2,5,2,0,2,0,0,2,0,2,1,4,1105
+7398,San Martín,Selva,1,4,2,2,0,1,1,0,1,0,1,1,1,1102
+9572,Loreto,Selva,3,4,3,2,0,2,0,0,3,1,3,0,5,1112
+8275,San Martín,Selva,4,7,5,1,1,2,0,0,1,1,5,0,3,1106
+5434,San Martín,Selva,3,2,3,2,0,1,1,0,1,0,7,0,2,1103
+2477,Loreto,Selva,4,2,2,1,1,2,0,0,3,0,4,0,4,1110
+7099,San Martín,Selva,2,4,2,2,0,1,1,0,3,0,2,0,4,1103
+9058,San Martín,Selva,3,5,3,1,1,1,1,0,4,0,1,0,4,1106
+1655,San Martín,Selva,3,4,3,2,0,1,1,0,2,0,1,1,6,1106
+773,San Martín,Selva,3,4,4,2,0,2,0,0,2,1,4,0,4,1104
+4131,San Martín,Selva,4,4,5,2,0,1,1,0,1,0,3,1,3,1104
+2228,San Martín,Selva,3,2,5,2,0,2,0,0,3,0,2,0,6,1113
+4577,Loreto,Selva,4,4,3,2,0,2,0,0,2,0,4,1,6,1112
+2465,San Martín,Selva,2,1,6,2,0,2,0,0,,0,1,1,3,1104
+3508,San Martín,Selva,1,5,3,1,1,2,0,0,4,1,5,1,4,1105
+5979,Loreto,Selva,3,3,1,2,0,1,1,0,2,1,4,0,4,1114
+7142,Loreto,Selva,4,5,3,1,1,1,1,0,3,0,5,0,3,1106
+3726,San Martín,Selva,4,3,3,2,0,1,1,0,1,0,4,0,4,1106
+8901,Huánuco,Sierra Centro,2,1,7,2,0,2,0,0,4,0,6,1,2,1101
+1905,Huánuco,Sierra Centro,1,5,1,2,0,1,1,0,3,0,6,1,6,1104
+3767,Huánuco,Sierra Centro,3,1,1,2,0,2,0,0,4,0,5,1,5,1101
+5194,Huánuco,Sierra Centro,3,3,4,1,1,2,0,0,4,1,1,0,5,1103
+4264,Huánuco,Sierra Centro,4,5,6,1,1,1,1,0,2,0,1,0,6,1108
+2323,Huánuco,Sierra Centro,3,4,5,2,0,2,0,0,3,0,2,0,6,1108
+1000,Huánuco,Sierra Centro,4,2,4,1,1,1,1,0,3,0,3,1,4,1107
+4855,Huánuco,Sierra Centro,3,4,4,1,1,2,0,0,3,0,1,0,6,1112
+8752,Huánuco,Sierra Centro,3,2,4,2,0,2,0,0,3,0,3,1,6,1108
+335,Huánuco,Sierra Centro,3,2,2,1,1,1,1,1,3,0,2,0,4,1110
+1114,Huánuco,Sierra Centro,2,5,1,2,0,1,1,0,4,1,4,1,4,1104
+1978,Lima,Lima Metropolitana,5,1,1,2,0,1,1,0,3,0,5,0,4,1112
+3987,Lima,Lima Metropolitana,1,6,2,2,0,2,0,0,1,0,7,0,4,1105
+2999,Lima,Lima Metropolitana,2,1,4,2,0,2,0,0,3,1,2,1,5,1113
+48,Lima,Lima Metropolitana,3,5,3,2,0,2,0,0,2,1,5,1,5,1109
+659,Lima,Lima Metropolitana,2,1,1,2,0,2,0,0,3,0,3,0,4,1110
+4363,Lima,Lima Metropolitana,2,4,3,2,0,2,0,0,3,0,1,1,6,1115
+7661,Lima,Lima Metropolitana,3,1,6,2,0,2,0,1,4,0,1,1,3,1104
+2516,Lima,Lima Metropolitana,2,3,1,1,1,2,0,0,4,1,1,1,5,1106
+4539,Lima,Lima Metropolitana,2,4,1,1,1,2,0,0,2,0,1,0,5,1113
+6883,Lima,Lima Metropolitana,1,1,1,1,1,1,1,0,3,1,4,0,6,1109
+6484,Lima,Lima Metropolitana,3,3,4,1,1,1,1,0,3,0,3,1,4,1105
+8442,Lima,Lima Metropolitana,3,3,3,2,0,2,0,0,2,0,6,0,6,1115
+2222,Lambayeque,Costa Norte,2,3,6,2,0,2,0,0,4,1,5,0,2,1104
+3645,Lambayeque,Costa Norte,4,4,3,2,0,2,0,0,4,1,7,1,1,1101
+4111,Lambayeque,Costa Norte,1,7,1,2,0,2,0,0,3,0,3,1,6,1115
+9185,Apurímac,Sierra Sur,2,7,2,2,0,1,1,0,4,0,5,0,1,1101
+1608,Apurímac,Sierra Sur,3,3,6,2,0,2,0,0,3,0,3,0,4,1109
+8445,Apurímac,Sierra Sur,1,3,5,2,0,2,0,0,2,0,2,0,6,1115
+1409,Apurímac,Sierra Sur,4,1,7,2,0,2,0,0,1,1,3,0,5,1106
+8723,Apurímac,Sierra Sur,3,6,4,2,0,1,1,0,2,1,3,1,5,1103
+7803,Apurímac,Sierra Sur,2,3,5,2,0,2,0,0,3,0,1,1,4,1112
+2775,Apurímac,Sierra Sur,3,1,2,1,1,1,1,0,1,0,4,1,6,1107
+8049,Apurímac,Sierra Sur,3,3,6,2,0,2,0,0,2,0,3,1,2,1102
+2563,Apurímac,Sierra Sur,1,4,2,1,1,2,0,0,3,0,6,0,5,1107
+6471,Apurímac,Sierra Sur,4,3,3,1,1,2,0,0,2,1,3,0,6,1112
+1635,Apurímac,Sierra Sur,2,7,1,1,1,2,0,0,2,0,1,1,6,1108
+2905,Apurímac,Sierra Sur,3,1,3,1,1,2,0,0,2,0,5,0,5,1109
+5446,La Libertad,Costa Norte,2,3,3,2,0,2,0,0,3,0,3,1,4,1102
+1353,La Libertad,Costa Norte,2,4,2,2,0,2,0,0,4,1,1,0,5,1110
+6796,La Libertad,Costa Norte,3,1,3,1,1,2,0,0,2,0,5,1,3,1106
+9760,La Libertad,Costa Norte,3,3,6,2,0,1,1,0,2,0,2,0,3,1101
+885,La Libertad,Costa Norte,2,3,2,2,0,2,0,0,3,1,6,0,6,1110
+6744,La Libertad,Costa Norte,3,2,7,1,1,2,0,0,3,1,3,1,3,1102
+976,Loreto,Selva,2,2,3,1,1,1,1,0,3,1,6,0,4,1101
+298,Loreto,Selva,2,4,3,1,1,2,0,0,1,1,4,0,6,1105
+9262,Loreto,Selva,2,7,3,1,1,2,0,0,4,0,6,0,3,1103
+3306,Loreto,Selva,3,4,4,1,1,2,0,0,1,1,7,1,1,1102
+9743,Loreto,Selva,4,3,5,2,0,1,1,0,3,0,4,0,5,1108
+9848,Loreto,Selva,2,4,4,1,1,2,0,0,4,0,6,1,5,1103
+9659,Loreto,Selva,2,5,4,1,1,2,0,0,3,0,4,1,6,1113
+6801,Loreto,Selva,2,2,5,2,0,1,1,0,2,0,5,1,3,1101
+1861,Loreto,Selva,3,6,4,2,0,1,1,0,4,0,3,1,3,1104
+3819,Loreto,Selva,4,5,3,1,1,2,0,1,,0,4,0,2,1103
+5606,Lima,Lima Metropolitana,2,2,2,2,0,2,0,0,,0,6,0,2,
+874,Lima,Lima Metropolitana,3,6,4,2,0,2,0,0,2,1,1,0,4,1105
+9087,Lima,Lima Metropolitana,2,3,2,2,0,2,0,1,2,1,6,1,5,1103
+1538,Lima,Lima Metropolitana,3,2,7,2,0,1,1,0,3,1,1,0,3,1107
+3674,Lima,Lima Metropolitana,3,2,4,1,1,1,1,0,4,1,2,1,6,1114
+8236,Lima,Lima Metropolitana,3,3,4,2,0,2,0,0,3,0,5,0,4,1108
+1276,Lima,Lima Metropolitana,2,4,4,1,1,1,1,0,3,0,3,1,6,1112
+6742,Lima,Lima Metropolitana,1,1,7,2,0,2,0,0,3,0,6,1,5,1109
+8639,Lima,Lima Metropolitana,2,4,4,1,1,2,0,0,2,1,7,1,4,1103
+4465,Lima,Lima Metropolitana,2,4,3,2,0,2,0,0,4,1,5,0,6,1113
+3778,Lima,Lima Metropolitana,5,1,4,1,1,2,0,0,2,0,7,0,4,1104
+8764,Lima,Lima Metropolitana,3,3,2,1,1,2,0,1,4,0,3,1,5,1110
+1730,Lima,Costa Norte,3,4,2,1,1,2,0,0,4,1,4,1,6,1113
+3198,Lima,Lima Metropolitana,2,5,5,1,1,2,0,0,3,0,5,0,1,
+1327,Lima,Lima Metropolitana,3,2,6,2,0,2,0,0,4,0,2,1,4,
+7160,Lima,Lima Metropolitana,1,2,5,2,0,2,0,0,3,1,2,0,4,1112
+7426,Lima,Lima Metropolitana,1,2,5,2,0,1,1,0,3,1,1,0,3,1103
+5993,Lima,Lima Metropolitana,4,5,1,1,1,1,1,0,4,1,2,0,4,1105
+5472,Lima,Lima Metropolitana,1,4,4,1,1,1,1,0,3,1,3,0,4,1109
+8363,Lima,Costa Norte,2,1,5,2,0,2,0,0,4,0,5,1,4,1107
+2107,Lima,Lima Metropolitana,2,4,3,1,1,2,0,0,3,0,2,1,3,
+4640,Lima,Lima Metropolitana,4,2,6,2,0,2,0,0,4,1,3,0,5,1108
+9485,Lima,Costa Norte,3,4,6,2,0,2,0,1,2,1,5,1,6,1111
+2066,Lima,Costa Norte,2,3,3,2,0,1,1,0,3,0,4,0,3,1103
+3684,Lima,Costa Norte,2,5,1,1,1,2,0,0,2,0,3,0,5,1107
+1223,Lima,Costa Norte,1,1,3,2,0,1,1,0,3,0,2,0,6,1102
+1991,Lima,Costa Norte,1,4,3,2,0,1,1,0,3,0,1,0,5,
+1555,Lima,Costa Norte,4,4,4,1,1,2,0,0,3,0,6,1,4,1105
+2086,Lima,Lima Metropolitana,3,4,2,1,1,1,1,0,4,1,5,1,3,1105
+797,Lima,Costa Norte,1,1,4,2,0,2,0,0,2,1,1,0,5,1110
+9864,Lima,Lima Metropolitana,1,4,4,1,1,1,1,0,4,0,4,1,4,1106
+201,Lima,Costa Norte,3,4,3,1,1,1,1,0,3,0,4,1,5,1105
+6829,Lima,Lima Metropolitana,1,2,3,1,1,2,0,0,1,1,7,1,1,1107
+8410,Lima,Lima Metropolitana,4,3,6,1,1,2,0,0,4,1,4,1,4,1104
+4073,Lima,Lima Metropolitana,2,4,3,1,1,1,1,0,2,1,4,0,3,1110
+2800,Moquegua,Costa Sur,3,4,5,2,0,2,0,1,3,1,4,0,6,1108
+2461,Moquegua,Costa Sur,4,4,3,1,1,2,0,0,2,0,4,0,4,1106
+8651,Moquegua,Costa Sur,1,4,3,2,0,2,0,0,3,0,2,1,6,1106
+1939,Lima,Lima Metropolitana,1,4,3,1,1,1,1,0,4,1,3,1,5,1111
+493,Lima,Lima Metropolitana,4,1,3,1,1,1,1,0,3,1,2,0,4,1104
+8652,Lima,Lima Metropolitana,1,7,5,2,0,1,1,0,4,0,4,0,1,1105
+1268,Lima,Lima Metropolitana,3,1,6,1,1,1,1,0,3,0,7,0,2,1103
+7556,Lima,Lima Metropolitana,3,4,4,2,0,1,1,0,4,1,5,1,3,1101
+9435,Lima,Lima Metropolitana,3,3,5,2,0,2,0,0,4,0,1,1,1,1104
+4307,Lima,Lima Metropolitana,3,2,2,2,0,2,0,1,3,0,3,,1,1101
+7100,Lima,Lima Metropolitana,3,4,3,2,0,2,0,0,3,0,3,0,6,1110
+7326,Lima,Lima Metropolitana,4,4,2,1,1,1,1,0,4,0,1,1,4,1101
+2101,Lima,Lima Metropolitana,3,4,4,2,0,1,1,0,2,0,1,0,6,1115
+7738,Lima,Lima Metropolitana,4,5,1,2,0,2,0,0,2,0,4,0,5,1105
+9251,Lima,Lima Metropolitana,4,3,2,2,0,2,0,0,3,0,1,1,6,1114
+4389,Lima,Lima Metropolitana,2,4,3,1,1,2,0,0,4,0,2,0,4,1103
+7668,Lima,Lima Metropolitana,1,5,1,2,0,2,0,0,2,1,5,0,5,1112
+6267,Lima,Lima Metropolitana,3,5,2,2,0,1,1,0,4,0,5,0,4,1111
+3065,Lima,Lima Metropolitana,1,2,2,1,1,2,0,0,3,0,7,1,4,1106
+8872,Cusco,Sierra Sur,3,1,7,2,0,2,0,0,2,1,1,1,4,1102
+3974,Cusco,Sierra Sur,2,4,6,2,0,2,0,0,2,0,2,0,3,1102
+6493,Cusco,Sierra Sur,3,3,3,2,0,1,1,0,3,0,1,0,4,1105
+6073,Cusco,Sierra Sur,2,1,3,1,1,1,1,0,1,1,1,0,6,1105
+7000,Cusco,Sierra Sur,2,1,1,1,1,2,0,0,3,1,1,1,4,1101
+8393,Puno,Sierra Sur,3,4,4,2,0,2,0,0,3,1,2,0,5,1103
+7472,Puno,Sierra Sur,4,2,3,2,0,1,1,0,3,0,3,1,5,1113
+4023,Puno,Sierra Sur,3,5,3,1,1,1,1,0,3,0,4,1,4,1105
+2196,Puno,Sierra Sur,2,1,3,1,1,2,0,0,4,0,1,1,5,1108
+6229,Puno,Sierra Sur,3,3,5,2,0,2,0,0,2,0,2,0,6,
+8921,Puno,Sierra Sur,3,4,4,2,0,2,0,0,2,0,2,0,6,1103
+9464,Junín,Sierra Centro,1,3,4,2,0,1,1,0,3,0,1,1,4,1107
+7170,Junín,Sierra Centro,3,5,1,2,0,2,0,0,3,0,2,1,4,1106
+4760,Junín,Selva,1,6,2,1,1,1,1,0,2,0,7,1,3,1105
+1116,Junín,Sierra Centro,1,5,2,1,1,1,1,0,3,0,4,0,4,1108
+2279,Junín,Sierra Centro,2,6,6,1,1,1,1,0,3,1,5,1,4,1107
+6755,Junín,Selva,1,1,1,1,1,2,0,0,3,0,3,1,1,1106
+8804,Junín,Sierra Centro,4,5,4,1,1,1,1,0,2,0,1,1,4,1104
+5581,Junín,Selva,1,2,3,1,1,2,0,0,3,0,1,0,6,1110
+6847,Junín,Sierra Centro,3,1,1,2,0,1,1,0,2,1,1,0,6,1107
+8097,Junín,Sierra Centro,2,1,4,1,1,1,1,0,3,1,4,0,6,1107
+2406,Junín,Selva,1,7,3,2,0,1,1,0,2,0,1,0,4,1110
+3151,Junín,Selva,2,2,4,2,0,2,0,0,4,1,1,0,4,1107
+6688,Junín,Selva,1,3,5,1,1,2,0,0,4,0,3,1,4,1107
+6346,Junín,Sierra Centro,1,3,6,1,1,1,1,0,3,1,1,0,6,1101
+7774,Junín,Selva,2,1,7,1,1,2,0,0,2,0,1,0,4,1107
+3282,Junín,Sierra Centro,3,5,5,1,1,1,1,0,1,0,7,0,5,
+4747,Junín,Sierra Centro,2,7,6,2,0,2,0,0,3,0,1,0,4,1106
+8530,Junín,Sierra Centro,2,5,6,2,0,2,0,0,4,0,1,1,4,1107
+1783,Junín,Sierra Centro,3,2,6,2,0,2,0,0,3,1,2,1,5,1107
+2962,Junín,Selva,2,1,2,1,1,2,0,0,3,0,4,1,4,1108
+4670,Junín,Selva,3,2,4,2,0,2,0,1,2,0,2,0,6,1111
+6093,San Martín,Selva,2,4,3,2,0,2,0,0,4,0,4,0,4,1108
+2218,San Martín,Selva,2,3,4,1,1,1,1,0,3,0,3,1,3,1111
+9206,San Martín,Selva,4,4,5,1,1,2,0,0,4,1,2,1,5,1102
+2373,San Martín,Selva,3,6,3,2,0,2,0,0,2,0,3,1,2,1113
+739,San Martín,Selva,2,7,1,1,1,2,0,0,3,1,7,0,5,1101
+1044,San Martín,Selva,2,6,3,1,1,1,1,1,3,0,6,1,2,1106
+401,San Martín,Selva,2,1,2,1,1,2,0,0,1,0,3,0,4,1106
+2082,San Martín,Selva,1,4,1,1,1,1,1,0,3,1,2,0,6,1113
+1704,San Martín,Selva,3,3,2,1,1,1,1,0,3,1,4,1,5,1106
+4788,San Martín,Selva,2,5,2,1,1,1,1,0,3,0,5,0,6,1113
+9273,San Martín,Selva,3,3,3,2,0,1,1,0,2,0,1,1,1,1106
+7337,San Martín,Selva,1,3,5,1,1,2,0,0,4,0,2,0,6,1106
+6996,San Martín,Selva,3,3,5,1,1,2,0,0,3,0,2,1,4,1102
+6374,San Martín,Selva,3,4,4,1,1,2,0,0,3,0,2,1,6,1111
+1591,San Martín,Selva,2,3,5,1,1,1,1,0,3,0,3,0,4,1109
+1779,San Martín,Selva,5,3,3,2,0,1,1,0,2,0,1,0,4,1108
+7435,San Martín,Selva,4,1,6,1,1,2,0,0,2,0,2,0,6,1104
+3394,San Martín,Selva,2,1,5,2,0,2,0,0,2,0,2,1,4,1104
+1225,San Martín,Selva,2,2,3,1,1,2,0,0,1,0,3,0,6,1105
+2572,San Martín,Selva,3,5,6,1,1,2,0,0,4,1,2,0,6,1105
+3131,San Martín,Selva,3,3,4,1,1,2,0,0,3,1,2,1,6,1113
+6882,San Martín,Selva,2,4,4,1,1,1,1,0,2,1,3,1,4,1104
+8699,San Martín,Selva,4,4,5,1,1,1,1,0,3,1,5,0,6,1112
+683,San Martín,Selva,2,3,4,1,1,1,1,0,3,0,4,0,6,1112
+6835,San Martín,Selva,3,2,2,2,0,1,1,0,1,0,5,0,5,1106
+3727,San Martín,Selva,2,4,2,1,1,2,0,0,2,1,3,1,6,1108
+8575,San Martín,Selva,2,4,4,1,1,1,1,0,3,0,4,0,6,1110
+789,San Martín,Selva,2,3,5,1,1,1,1,0,2,1,3,1,4,1107
+4455,San Martín,Selva,4,1,1,1,1,2,0,0,2,0,3,0,5,1111
+5445,San Martín,Selva,2,3,6,1,1,1,1,0,2,0,2,0,5,1107
+8700,San Martín,Selva,3,3,4,1,1,2,0,0,3,0,4,1,1,
+5801,San Martín,Selva,3,5,3,1,1,1,1,0,1,0,5,0,4,1105
+3157,San Martín,Selva,2,2,7,1,1,1,1,0,2,0,2,1,4,
+4245,San Martín,Selva,3,1,2,1,1,2,0,0,1,0,4,1,5,1105
+8931,San Martín,Selva,4,3,7,1,1,2,0,0,,0,7,1,1,1102
+2108,San Martín,Selva,4,7,4,1,1,1,1,0,3,0,7,0,6,1108
+4275,San Martín,Selva,4,3,4,2,0,2,0,0,2,0,3,1,6,1109
+6527,San Martín,Selva,3,3,2,1,1,2,0,0,2,0,6,1,5,
+5374,San Martín,Selva,2,1,1,2,0,2,0,1,1,1,3,1,5,
+6781,San Martín,Selva,2,5,3,2,0,1,1,0,1,0,5,0,4,1105
+7720,San Martín,Selva,4,5,2,1,1,1,1,0,3,0,1,0,4,1106
+5973,Lambayeque,Costa Norte,5,2,1,1,1,2,0,0,1,0,5,1,4,1101
+1132,Lambayeque,Costa Norte,3,2,1,1,1,1,1,0,1,1,4,1,0,1102
+6631,Lambayeque,Costa Norte,2,5,3,2,0,2,0,0,3,0,5,0,4,1102
+2225,Lambayeque,Costa Norte,3,2,2,1,1,1,1,0,4,1,3,0,4,1106
+6372,Lambayeque,Costa Norte,2,4,2,1,1,2,0,0,3,0,3,0,4,1104
+45,Lambayeque,Costa Norte,4,2,2,1,1,1,1,0,2,0,3,0,4,1111
+6218,Lambayeque,Costa Norte,1,3,5,2,0,2,0,0,2,0,2,1,4,1101
+3901,Lambayeque,Costa Norte,2,3,4,2,0,1,1,0,2,0,3,0,4,1101
+7932,Lambayeque,Costa Norte,4,6,3,1,1,2,0,0,3,0,3,1,2,1101
+5651,Lambayeque,Costa Norte,2,3,3,1,1,2,0,0,4,1,4,1,3,1108
+1018,Lambayeque,Costa Norte,4,4,3,1,1,1,1,0,3,1,6,0,4,1102
+1200,Lambayeque,Costa Norte,3,5,3,1,1,1,1,0,1,0,3,1,6,1115
+6644,Lambayeque,Costa Norte,2,2,4,1,1,2,0,0,4,0,3,1,4,1102
+7576,Lambayeque,Costa Norte,2,2,3,2,0,2,0,0,2,0,4,1,4,1104
+1550,Lambayeque,Costa Norte,3,6,3,1,1,2,0,0,2,0,6,0,4,1105
+1610,Lambayeque,Costa Norte,2,6,4,2,0,2,0,0,4,0,1,1,1,1103
+6971,Lambayeque,Costa Norte,4,5,4,1,1,2,0,0,2,0,5,0,4,1106
+7592,Lima,Lima Metropolitana,4,4,2,1,1,2,0,0,3,0,4,1,4,1104
+6773,Lima,Lima Metropolitana,2,4,3,2,0,1,1,1,4,0,5,0,4,1105
+2492,Lima,Lima Metropolitana,3,4,3,1,1,2,0,0,3,0,7,1,6,1103
+7128,Lima,Lima Metropolitana,4,4,7,1,1,2,0,1,3,1,4,0,4,1104
+3688,Lima,Lima Metropolitana,4,3,5,2,0,2,0,0,3,1,3,0,4,1108
+3142,Lima,Lima Metropolitana,3,7,1,1,1,1,1,1,2,0,7,0,6,1105
+2767,Lima,Lima Metropolitana,2,6,1,1,1,1,1,1,3,1,5,1,5,1101
+7358,Lima,Lima Metropolitana,3,5,3,2,0,1,1,0,2,0,4,0,2,1106
+2258,Lima,Lima Metropolitana,3,4,3,1,1,1,1,0,4,1,5,0,5,1110
+919,Lima,Lima Metropolitana,3,5,3,1,1,2,0,0,3,0,4,0,4,1104
+7530,Lima,Lima Metropolitana,3,2,5,2,0,2,0,1,3,0,3,1,4,1103
+2291,Lima,Lima Metropolitana,2,2,3,2,0,2,0,0,4,1,1,0,4,1104
+3450,Lima,Lima Metropolitana,5,5,2,2,0,2,0,1,3,0,7,1,4,1105
+2799,Lima,Lima Metropolitana,2,3,6,1,1,2,0,1,4,0,1,0,4,1111
+4901,Lima,Lima Metropolitana,1,3,6,2,0,1,1,1,4,0,1,1,4,1107
+4608,Lima,Lima Metropolitana,2,1,6,1,1,2,0,1,4,0,1,1,6,1104
+6983,Lima,Lima Metropolitana,3,3,3,1,1,2,0,1,4,0,1,1,4,1106
+9720,Lima,Lima Metropolitana,3,5,1,2,0,2,0,0,1,0,5,0,4,1105
+4198,Lima,Lima Metropolitana,4,4,4,1,1,2,0,1,2,0,4,1,4,1105
+4309,Lima,Lima Metropolitana,4,1,5,1,1,1,1,1,4,0,1,0,4,1109
+5274,Lima,Lima Metropolitana,3,3,1,1,1,2,0,1,4,0,3,1,4,1105
+2728,Lima,Lima Metropolitana,3,2,4,2,0,2,0,1,4,0,2,1,1,1103
+4318,Lima,Lima Metropolitana,2,2,7,1,1,2,0,1,3,0,4,1,1,1101
+8549,Lima,Lima Metropolitana,3,3,4,2,0,2,0,1,3,0,3,0,5,1112
+837,Lima,Lima Metropolitana,3,7,1,1,1,1,1,0,1,0,1,0,5,
+9588,Lima,Lima Metropolitana,4,5,4,2,0,2,0,0,3,0,1,0,5,1115
+7156,Lima,Lima Metropolitana,3,2,4,1,1,2,0,0,2,0,3,1,5,1101
+8818,Lima,Lima Metropolitana,3,1,3,2,0,2,0,0,2,0,3,1,6,1114
+3569,Lima,Lima Metropolitana,3,3,4,2,0,2,0,0,2,0,2,1,5,1114
+3549,Lima,Lima Metropolitana,3,5,2,2,0,2,0,1,2,0,5,0,6,1114
+2552,Lima,Lima Metropolitana,2,1,3,2,0,2,0,0,2,0,4,0,6,1113
+6087,Lima,Lima Metropolitana,1,2,1,2,0,2,0,1,2,0,6,0,6,
+1957,Lima,Lima Metropolitana,4,3,4,2,0,1,1,0,3,0,4,0,4,1103
+8446,Lima,Lima Metropolitana,2,2,5,2,0,2,0,0,1,1,4,1,4,1111
+1632,Lima,Lima Metropolitana,3,3,3,1,1,2,0,1,2,1,4,0,6,1115
+7330,Lima,Lima Metropolitana,3,5,2,1,1,2,0,0,2,0,5,0,5,1113
+4910,Lima,Lima Metropolitana,4,1,3,2,0,2,0,0,2,0,3,1,6,1114
+3442,Lima,Lima Metropolitana,3,7,4,1,1,1,1,0,3,0,1,1,4,1109
+4332,Lima,Lima Metropolitana,1,1,1,2,0,2,0,0,3,1,1,0,6,1111
+7968,Lima,Lima Metropolitana,4,3,1,2,0,2,0,1,3,0,6,1,5,
+343,Lima,Lima Metropolitana,2,4,4,1,1,1,1,1,4,0,5,1,5,1113
+6864,Lima,Lima Metropolitana,4,1,1,1,1,2,0,1,3,1,2,0,6,1114
+4733,Lima,Lima Metropolitana,3,4,5,2,0,1,1,0,3,0,1,0,5,1115
+554,Ica,Costa Sur,4,2,1,1,1,2,0,0,1,1,4,1,6,1108
+9686,Ica,Costa Sur,2,1,7,1,1,1,1,0,3,0,2,1,4,1103
+6703,Ica,Costa Sur,5,3,1,2,0,1,1,0,1,0,5,0,4,1106
+2179,Ica,Costa Sur,2,1,6,2,0,2,0,0,1,0,3,0,1,1104
+2786,Ica,Costa Sur,4,3,5,1,1,2,0,0,1,0,4,1,5,1114
+9237,Ica,Costa Sur,1,4,4,1,1,1,1,0,2,0,4,0,6,1106
+6970,Ica,Costa Sur,3,4,3,2,0,1,1,0,1,0,4,0,3,1105
+4889,Ica,Costa Sur,1,2,3,2,0,1,1,0,4,1,4,0,4,1109
+2104,Ica,Costa Sur,4,4,2,1,1,1,1,0,3,1,3,0,2,1102
+8648,Ica,Costa Sur,5,2,7,2,0,2,0,0,4,0,2,0,1,1104
+4656,Ica,Costa Sur,1,3,4,1,1,2,0,0,3,1,1,0,5,1108
+635,Ica,Costa Sur,3,6,1,2,0,2,0,0,3,0,5,1,1,1101
+6879,Ica,Costa Sur,2,2,5,1,1,2,0,0,3,0,6,1,4,1104
+8462,Ica,Costa Sur,4,2,6,1,1,2,0,0,3,0,3,0,6,1113
+7664,Ica,Costa Sur,1,4,4,1,1,2,0,0,4,1,3,1,6,1107
+9783,Ica,Costa Sur,3,3,5,2,0,2,0,0,4,1,6,1,4,1101
+9452,Ica,Costa Sur,1,4,4,1,1,2,0,0,4,0,2,1,4,1105
+2547,Ica,Costa Sur,1,6,3,1,1,1,1,1,3,1,6,0,4,1104
+8104,Ica,Costa Sur,3,4,4,2,0,2,0,0,3,1,5,1,5,1102
+4886,Ica,Costa Sur,2,1,2,2,0,2,0,0,2,0,6,1,3,1104
+3304,Ica,Costa Sur,2,4,1,2,0,1,1,1,3,1,3,0,4,1111
+7796,Ica,Costa Sur,2,6,1,2,0,2,0,0,1,0,3,0,4,1101
+7107,Ica,Costa Sur,2,1,7,1,1,1,1,0,4,0,3,0,1,1105
+2409,Ica,Costa Sur,2,4,5,2,0,2,0,0,4,0,5,1,4,1106
+5140,Ica,Costa Sur,2,4,4,2,0,2,0,0,3,0,5,1,6,1111
+3747,Ica,Costa Sur,3,2,3,2,0,1,1,0,3,1,3,0,4,1110
+2626,Piura,Costa Norte,3,4,2,1,1,2,0,0,4,1,1,0,6,1112
+5264,Piura,Costa Norte,3,2,1,1,1,2,0,0,1,0,2,1,6,1114
+7431,Piura,Costa Norte,3,3,4,2,0,2,0,0,2,1,4,0,5,1109
+3573,Piura,Costa Norte,2,4,2,2,0,1,1,0,4,0,1,1,1,1103
+8068,Piura,Costa Norte,2,3,1,2,0,2,0,0,3,0,2,0,6,1115
+4122,Piura,Costa Norte,3,4,2,2,0,2,0,0,2,0,5,1,6,1113
+525,Huancavelica,Sierra Sur,3,3,6,1,1,2,0,0,2,1,4,1,4,1101
+7015,Huancavelica,Sierra Sur,3,4,5,1,1,1,1,0,2,0,5,1,5,1101
+3723,Huancavelica,Sierra Sur,2,2,5,1,1,2,0,0,2,0,2,1,4,1101
+1449,Huancavelica,Sierra Sur,5,6,3,1,1,1,1,0,1,1,4,0,4,1109
+249,Huancavelica,Sierra Sur,4,4,4,1,1,2,0,1,2,0,5,0,4,1106
+270,Huancavelica,Sierra Sur,4,1,7,1,1,1,1,0,4,0,1,0,6,1106
+4162,Huancavelica,Sierra Sur,3,3,4,1,1,2,0,0,2,1,5,0,5,1108
+3162,Junín,Sierra Centro,2,3,3,2,0,2,0,0,4,1,2,0,4,1104
+6569,Junín,Sierra Centro,2,1,4,2,0,2,0,0,2,0,1,1,4,1104
+5202,Junín,Sierra Centro,2,1,3,1,1,2,0,0,3,0,4,0,5,1108
+3648,Junín,Sierra Centro,2,1,2,2,0,2,0,0,4,0,3,0,6,1112
+81,Junín,Sierra Centro,3,4,1,2,0,2,0,0,3,0,1,1,6,1101
+1177,Junín,Sierra Centro,2,1,3,2,0,2,0,1,2,0,5,1,6,1107
+8576,Junín,Sierra Centro,2,1,3,1,1,1,1,0,4,1,1,1,5,1102
+499,Junín,Sierra Centro,4,1,3,1,1,2,0,0,3,0,3,0,6,1110
+9144,Junín,Sierra Centro,2,4,3,2,0,1,1,0,3,0,3,0,5,1104
+8217,Junín,Sierra Centro,4,1,4,2,0,2,0,0,4,0,1,1,2,1101
+5077,Junín,Sierra Centro,3,4,4,2,0,2,0,0,3,1,1,1,1,1101
